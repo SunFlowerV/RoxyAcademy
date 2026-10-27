@@ -1,0 +1,13 @@
+services:
+  web:
+    restart: "no"
+    environment:
+      DJANGO_DEBUG: "True"
+      DJANGO_ALLOWED_HOSTS: localhost,127.0.0.1,testserver
+    volumes:
+      - ./manage.py:/app/manage.py
+      - ./RoxyAcademy:/app/RoxyAcademy
+      - ./RoxyAcademyApp:/app/RoxyAcademyApp
+      - ./locale:/app/locale
+      - ./media:/app/media
+    command: sh -c "python manage.py compilemessages --locale ru && python manage.py migrate --noinput && exec python manage.py runserver 0.0.0.0:8000"

@@ -1,0 +1,337 @@
+{% extends '../../layout/layout.html' %}
+{% load i18n %}
+
+{% block content %}
+
+    <!-- Mobile Menu Section -->
+    <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/logo/roxy-academy.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+
+                        <div class="logo d-none logo-light">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/dark/logo/roxy-academy-light.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description">{% translate 'Histudy is a education website template. You can customize all.' %}</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li>
+                        <a href="mailto:hello@example.com"><i class="feather-mail"></i>example@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="feather-phone"></i>(302) 555-0107</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu">
+                    
+
+                    
+
+                    
+
+                    
+
+
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="#">
+                        <span>{% translate 'Enroll Now' %}</span>
+                    </a>
+                </div>
+
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">{% translate 'Find With Us' %}</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/">
+                                <i class="feather-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.twitter.com">
+                                <i class="feather-twitter"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/">
+                                <i class="feather-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkdin.com/">
+                                <i class="feather-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Start Side Vav -->
+    {% include "partials/sideVav.html" %}
+    <!-- End Side Vav -->
+
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+
+    {% include "partials/background.html" %}
+
+    <!-- Start Card Style -->
+    <div class="rbt-dashboard-area rbt-section-overlayping-top rbt-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Start Dashboard Top  -->
+                    <div class="rbt-dashboard-content-wrapper">
+                        <div class="tutor-bg-photo bg_image bg_image--23 height-350"></div>
+                        <!-- Start Tutor Information  -->
+                        <div class="rbt-tutor-information">
+                            <div class="rbt-tutor-information-left">
+                                <div class="thumbnail rbt-avatars size-lg">
+                                    <img src="/static/images/team/avatar-2.jpg" alt="{% translate 'Instructor' %}">
+                                </div>
+                                <div class="tutor-content">
+                                    <h5 class="title">Emily Hannah</h5>
+                                    <ul class="rbt-meta rbt-meta-white mt--5">
+                                        <li><i class="feather-book"></i>{% translate '5 Courses Enroled' %}</li>
+                                        <li><i class="feather-award"></i>{% translate '4 Certificate' %}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Tutor Information  -->
+                    </div>
+                    <!-- End Dashboard Top  -->
+
+                    <div class="row g-5">
+                        <div class="col-lg-3">
+                            <!-- Start Dashboard Sidebar  -->
+                            <div class="rbt-default-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
+                                <div class="inner">
+                                    <div class="content-item-content">
+
+                                        <div class="rbt-default-sidebar-wrapper">
+                                            <div class="section-title mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Welcome, Jone Due' %}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'studentDashboard' %}"><i class="feather-home"></i><span>{% translate 'Dashboard' %}</span></a></li>
+                                                    <li><a href="{% url 'studentProfile' %}"><i class="feather-user"></i><span>{% translate 'My Profile' %}</span></a></li>
+                                                    <li><a href="{% url 'studentEnrolledCourses' %}"><i class="feather-book-open"></i><span>{% translate 'Enrolled Courses' %}</span></a></li>
+                                                    
+                                                    <li><a href="{% url 'studentReviews' %}"><i class="feather-star"></i><span>{% translate 'Reviews' %}</span></a></li>
+                                                    <li><a href="{% url 'studentMyQuizAttempts' %}"><i class="feather-help-circle"></i><span>{% translate 'My Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'studentOrderHistory' %}"><i class="feather-shopping-bag"></i><span>{% translate 'Order History' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'User' %}</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'studentSettings' %}"><i class="feather-settings"></i><span>{% translate 'Settings' %}</span></a></li>
+                                                    <li><a href="{% url 'logout' %}"><i class="feather-log-out"></i><span>{% translate 'Logout' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Dashboard Sidebar  -->
+                        </div>
+
+                        <div class="col-lg-9">
+                            <!-- Start Enrole Course  -->
+                            <div class="rbt-dashboard-content bg-color-white rbt-shadow-box">
+                                <div class="content">
+                                    <div class="section-title">
+                                        <h4 class="rbt-title-style-3">{% translate 'Order History' %}</h4>
+                                    </div>
+
+                                    <div class="rbt-dashboard-table table-responsive mobile-table-750">
+                                        <table class="rbt-table table table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th>{% translate 'Order ID' %}</th>
+                                                    <th>{% translate 'Course Name' %}</th>
+                                                    <th>{% translate 'Date' %}</th>
+                                                    <th>{% translate 'Price' %}</th>
+                                                    <th>{% translate 'Status' %}</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <th>#5478</th>
+                                                    <td>{% translate 'App Development' %}</td>
+                                                    <td>January 27, 2024</td>
+                                                    <td>$100.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-success-opacity color-success">{% translate 'Success' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#4585</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>May 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span class="rbt-badge-5 bg-primary-opacity">{% translate 'Processing' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#9656</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-warning-opacity color-warning">{% translate 'On Hold' %}</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#2045</th>
+                                                    <td>{% translate 'Application' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-danger-opacity color-danger">{% translate 'Canceled' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#5478</th>
+                                                    <td>{% translate 'App Development' %}</td>
+                                                    <td>January 27, 2024</td>
+                                                    <td>$100.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-success-opacity color-success">{% translate 'Success' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#4585</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>May 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span class="rbt-badge-5 bg-primary-opacity">{% translate 'Processing' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#9656</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-warning-opacity color-warning">{% translate 'On Hold' %}</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#2045</th>
+                                                    <td>{% translate 'Application' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-danger-opacity color-danger">{% translate 'Canceled' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#5478</th>
+                                                    <td>{% translate 'App Development' %}</td>
+                                                    <td>January 27, 2024</td>
+                                                    <td>$100.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-success-opacity color-success">{% translate 'Success' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#4585</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>May 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span class="rbt-badge-5 bg-primary-opacity">{% translate 'Processing' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#9656</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-warning-opacity color-warning">{% translate 'On Hold' %}</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#2045</th>
+                                                    <td>{% translate 'Application' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-danger-opacity color-danger">{% translate 'Canceled' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#5478</th>
+                                                    <td>{% translate 'App Development' %}</td>
+                                                    <td>January 27, 2024</td>
+                                                    <td>$100.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-success-opacity color-success">{% translate 'Success' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#4585</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>May 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span class="rbt-badge-5 bg-primary-opacity">{% translate 'Processing' %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#9656</th>
+                                                    <td>{% translate 'Graphic' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-warning-opacity color-warning">{% translate 'On Hold' %}</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>#2045</th>
+                                                    <td>{% translate 'Application' %}</td>
+                                                    <td>March 27, 2024</td>
+                                                    <td>$200.99</td>
+                                                    <td><span
+                                                            class="rbt-badge-5 bg-color-danger-opacity color-danger">{% translate 'Canceled' %}</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Enrole Course  -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card Style -->
+
+    {% include "partials/separator.html" %}
+    
+{% endblock content %}

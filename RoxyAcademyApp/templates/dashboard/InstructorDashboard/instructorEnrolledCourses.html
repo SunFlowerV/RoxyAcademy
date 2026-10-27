@@ -1,0 +1,678 @@
+{% extends '../../layout/layout.html' %}
+{% load i18n %}
+
+{% block content %}
+
+    <!-- Mobile Menu Section -->
+    <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/logo/roxy-academy.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+
+                        <div class="logo d-none logo-light">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/dark/logo/roxy-academy-light.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description">{% translate 'Histudy is a education website template. You can customize all.' %}</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li>
+                        <a href="mailto:hello@example.com"><i class="feather-mail"></i>example@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="feather-phone"></i>(302) 555-0107</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu">
+                    
+
+                    
+
+                    
+
+                    
+
+
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="#">
+                        <span>{% translate 'Enroll Now' %}</span>
+                    </a>
+                </div>
+
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">{% translate 'Find With Us' %}</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/">
+                                <i class="feather-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.twitter.com">
+                                <i class="feather-twitter"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/">
+                                <i class="feather-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkdin.com/">
+                                <i class="feather-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Start Side Vav -->
+    {% include "partials/sideVav.html" %}
+    <!-- End Side Vav -->
+
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+
+    {% include "partials/background.html" %}
+
+    <!-- Start Card Style -->
+    <div class="rbt-dashboard-area rbt-section-overlayping-top rbt-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Start Dashboard Top  -->
+                    <div class="rbt-dashboard-content-wrapper">
+                        <div class="tutor-bg-photo bg_image bg_image--22 height-350"></div>
+                        <!-- Start Tutor Information  -->
+                        <div class="rbt-tutor-information">
+                            <div class="rbt-tutor-information-left">
+                                <div class="thumbnail rbt-avatars size-lg">
+                                    <img src="/static/images/team/avatar.jpg" alt="{% translate 'Instructor' %}">
+                                </div>
+                                <div class="tutor-content">
+                                    <h5 class="title">John Due</h5>
+                                    <div class="rbt-review">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rbt-tutor-information-right">
+                                <div class="tutor-btn">
+                                    <a class="rbt-btn btn-md hover-icon-reverse" href="{% url 'createCourse' %}">
+                                        <span class="icon-reverse-wrapper">
+                        <span class="btn-text">{% translate 'Create a New Course' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Tutor Information  -->
+                    </div>
+                    <!-- End Dashboard Top  -->
+
+                    <div class="row g-5">
+                        <div class="col-lg-3">
+                            <!-- Start Dashboard Sidebar  -->
+                            <div class="rbt-default-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
+                                <div class="inner">
+                                    <div class="content-item-content">
+
+                                        <div class="rbt-default-sidebar-wrapper">
+                                            <div class="section-title mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Welcome, Jone Due' %}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorDashboard' %}"><i class="feather-home"></i><span>{% translate 'Dashboard' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorProfile' %}"><i class="feather-user"></i><span>{% translate 'My Profile' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorEnrolledCourses' %}"><i class="feather-book-open"></i><span>{% translate 'Enrolled Courses' %}</span></a></li>
+                                                    
+                                                    <li><a href="{% url 'instructorReviews' %}"><i class="feather-star"></i><span>{% translate 'Reviews' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorMyQuizAttempts' %}"><i class="feather-help-circle"></i><span>{% translate 'My Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorOrderHistory' %}"><i class="feather-shopping-bag"></i><span>{% translate 'Order History' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Instructor' %}</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorCourse' %}"><i class="feather-monitor"></i><span>{% translate 'My Courses' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorAnnouncements' %}"><i class="feather-volume-2"></i><span>{% translate 'Announcements' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorQuizAttempts' %}"><i class="feather-message-square"></i><span>{% translate 'Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorAssignments' %}"><i class="feather-list"></i><span>{% translate 'Assignments' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'User' %}</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorSettings' %}"><i class="feather-settings"></i><span>{% translate 'Settings' %}</span></a></li>
+                                                    <li><a href="{% url 'logout' %}"><i class="feather-log-out"></i><span>{% translate 'Logout' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Dashboard Sidebar  -->
+                        </div>
+
+                        <div class="col-lg-9">
+                            <!-- Start Enrole Course  -->
+                            <div class="rbt-dashboard-content bg-color-white rbt-shadow-box">
+                                <div class="content">
+
+                                    <div class="section-title">
+                                        <h4 class="rbt-title-style-3">{% translate 'Enrolled Courses' %}</h4>
+                                    </div>
+
+                                    <div class="advance-tab-button mb--30">
+                                        <ul class="nav nav-tabs tab-button-style-2 justify-content-start" id="myTab-4" role="tablist">
+                                            <li role="presentation">
+                                                <a href="#" class="tab-button active" id="home-tab-4" data-bs-toggle="tab" data-bs-target="#home-4" role="tab" aria-controls="home-4" aria-selected="true">
+                                                    <span class="title">{% translate 'Enrolled Courses' %}</span>
+                                                </a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="#" class="tab-button" id="profile-tab-4" data-bs-toggle="tab" data-bs-target="#profile-4" role="tab" aria-controls="profile-4" aria-selected="false">
+                                                    <span class="title">{% translate 'Active Courses' %}</span>
+                                                </a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="#" class="tab-button" id="contact-tab-4" data-bs-toggle="tab" data-bs-target="#contact-4" role="tab" aria-controls="contact-4" aria-selected="false">
+                                                    <span class="title">{% translate 'Completed Courses' %}</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade active show" id="home-4" role="tabpanel" aria-labelledby="home-tab-4">
+                                            <div class="row g-5">
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-01.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'React Front To Back' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '20 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '40 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-progress-style-1 mb--20 mt--10">
+                                                                <div class="single-progress">
+                                                                    <h6 class="rbt-title-style-2 mb--10">{% translate 'Complete' %}</h6>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar wow fadeInLeft bar-color-success" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                                        </div>
+                                                                        <span class="rbt-title-style-2 progress-number">90%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rbt-card-bottom">
+                                                                <a class="rbt-btn btn-sm bg-primary-opacity w-100 text-center" href="#">{% translate 'Download Certificate' %}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-02.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'PHP Beginner + Advanced' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '10 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '30 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-progress-style-1 mb--20 mt--10">
+                                                                <div class="single-progress">
+                                                                    <h6 class="rbt-title-style-2 mb--10">{% translate 'Complete' %}</h6>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar wow fadeInLeft bar-color-success" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                                                        </div>
+                                                                        <span class="rbt-title-style-2 progress-number">40%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rbt-card-bottom">
+                                                                <a class="rbt-btn btn-sm bg-primary-opacity w-100 text-center" href="#">{% translate 'Download Certificate' %}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-03.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(4 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'Angular Zero to Mastery' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '14 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '26 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-progress-style-1 mb--20 mt--10">
+                                                                <div class="single-progress">
+                                                                    <h6 class="rbt-title-style-2 mb--10">{% translate 'Complete' %}</h6>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar wow fadeInLeft bar-color-success" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                                                        </div>
+                                                                        <span class="rbt-title-style-2 progress-number">65%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rbt-card-bottom">
+                                                                <a class="rbt-btn btn-sm bg-primary-opacity w-100 text-center" href="#">{% translate 'Download Certificate' %}</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="profile-4" role="tabpanel" aria-labelledby="profile-tab-4">
+                                            <div class="row g-5">
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-04.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(3 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i
+                                                                            class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'English Langiage Club' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '20 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '30 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-card-bottom">
+                                                                <div class="rbt-price">
+                                                                    <span class="current-price">$40</span>
+                                                                    <span class="off-price">$86</span>
+                                                                </div>
+                                                                <a class="rbt-btn-link" href="{% url 'courseDetails' %}">{% translate 'Learn More' %}<i class="feather-arrow-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-06.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(3 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i
+                                                                            class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'Graphic Courses Club' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '50 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '10 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-card-bottom">
+                                                                <div class="rbt-price">
+                                                                    <span class="current-price">$40</span>
+                                                                    <span class="off-price">$86</span>
+                                                                </div>
+                                                                <a class="rbt-btn-link" href="{% url 'courseDetails' %}">{% translate 'Learn More' %}<i class="feather-arrow-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-05.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(3 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i
+                                                                            class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">Wed Design Club</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '20 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '30 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-card-bottom">
+                                                                <div class="rbt-price">
+                                                                    <span class="current-price">$40</span>
+                                                                    <span class="off-price">$86</span>
+                                                                </div>
+                                                                <a class="rbt-btn-link" href="{% url 'courseDetails' %}">{% translate 'Learn More' %}<i class="feather-arrow-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="contact-4" role="tabpanel" aria-labelledby="contact-tab-4">
+                                            <div class="row g-5">
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-01.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'React Front To Back' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '20 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '40 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-progress-style-1 mb--20 mt--10">
+                                                                <div class="single-progress">
+                                                                    <h6 class="rbt-title-style-2 mb--10">{% translate 'Complete' %}</h6>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar wow fadeInLeft bar-color-success" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                                        </div>
+                                                                        <span class="rbt-title-style-2 progress-number">100%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rbt-card-bottom">
+                                                                <a class="rbt-btn btn-sm bg-primary-opacity w-100 text-center" href="#">{% translate 'Download Certificate' %}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-02.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'PHP Beginner + Advanced' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '10 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '30 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-progress-style-1 mb--20 mt--10">
+                                                                <div class="single-progress">
+                                                                    <h6 class="rbt-title-style-2 mb--10">{% translate 'Complete' %}</h6>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar wow fadeInLeft bar-color-success" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                                        </div>
+                                                                        <span class="rbt-title-style-2 progress-number">100%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rbt-card-bottom">
+                                                                <a class="rbt-btn btn-sm bg-primary-opacity w-100 text-center" href="#">{% translate 'Download Certificate' %}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+
+                                                <!-- Start Single Course  -->
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        <div class="rbt-card-img">
+                                                            <a href="{% url 'courseDetails' %}">
+                                                                <img src="/static/images/course/course-online-03.jpg" alt="{% translate 'Card image' %}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="rbt-card-body">
+                                                            <div class="rbt-card-top">
+                                                                <div class="rbt-review">
+                                                                    <div class="rating">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                    <span class="rating-count"> {% translate '(4 Reviews)' %}</span>
+                                                                </div>
+                                                                <div class="rbt-bookmark-btn">
+                                                                    <a class="rbt-round-btn" title="{% translate 'Bookmark' %}" href="#"><i class="feather-bookmark"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <h4 class="rbt-card-title"><a href="{% url 'courseDetails' %}">{% translate 'Angular Zero to Mastery' %}</a>
+                                                            </h4>
+                                                            <ul class="rbt-meta">
+                                                                <li><i class="feather-book"></i>{% translate '14 Lessons' %}</li>
+                                                                <li><i class="feather-users"></i>{% translate '26 Students' %}</li>
+                                                            </ul>
+
+                                                            <div class="rbt-progress-style-1 mb--20 mt--10">
+                                                                <div class="single-progress">
+                                                                    <h6 class="rbt-title-style-2 mb--10">{% translate 'Complete' %}</h6>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar wow fadeInLeft bar-color-success" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                                        </div>
+                                                                        <span class="rbt-title-style-2 progress-number">100%</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="rbt-card-bottom">
+                                                                <a class="rbt-btn btn-sm bg-primary-opacity w-100 text-center" href="#">{% translate 'Download Certificate' %}</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Course  -->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- End Enrole Course  -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card Style -->
+
+    {% include "partials/separator.html" %}
+    
+{% endblock content %}

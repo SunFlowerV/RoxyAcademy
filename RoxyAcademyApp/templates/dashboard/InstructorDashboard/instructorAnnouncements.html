@@ -1,0 +1,373 @@
+{% extends '../../layout/layout.html' %}
+{% load i18n %}
+
+{% block content %}
+
+    <!-- Mobile Menu Section -->
+    <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/logo/roxy-academy.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+
+                        <div class="logo d-none logo-light">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/dark/logo/roxy-academy-light.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description">{% translate 'Histudy is a education website template. You can customize all.' %}</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li>
+                        <a href="mailto:hello@example.com"><i class="feather-mail"></i>example@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="feather-phone"></i>(302) 555-0107</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu">
+                    
+
+                    
+
+                    
+
+                    
+
+
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="#">
+                        <span>{% translate 'Enroll Now' %}</span>
+                    </a>
+                </div>
+
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">{% translate 'Find With Us' %}</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/">
+                                <i class="feather-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.twitter.com">
+                                <i class="feather-twitter"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/">
+                                <i class="feather-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkdin.com/">
+                                <i class="feather-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Start Side Vav -->
+    {% include "partials/sideVav.html" %}
+    <!-- End Side Vav -->
+
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+
+    {% include "partials/background.html" %}
+
+    <!-- Start Card Style -->
+    <div class="rbt-dashboard-area rbt-section-overlayping-top rbt-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Start Dashboard Top  -->
+                    <div class="rbt-dashboard-content-wrapper">
+                        <div class="tutor-bg-photo bg_image bg_image--22 height-350"></div>
+                        <!-- Start Tutor Information  -->
+                        <div class="rbt-tutor-information">
+                            <div class="rbt-tutor-information-left">
+                                <div class="thumbnail rbt-avatars size-lg">
+                                    <img src="/static/images/team/avatar.jpg" alt="{% translate 'Instructor' %}">
+                                </div>
+                                <div class="tutor-content">
+                                    <h5 class="title">John Due</h5>
+                                    <div class="rbt-review">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rbt-tutor-information-right">
+                                <div class="tutor-btn">
+                                    <a class="rbt-btn btn-md hover-icon-reverse" href="{% url 'createCourse'%}">
+                                        <span class="icon-reverse-wrapper">
+                        <span class="btn-text">{% translate 'Create a New Course' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Tutor Information  -->
+                    </div>
+                    <!-- End Dashboard Top  -->
+
+                    <div class="row g-5">
+                        <div class="col-lg-3">
+                            <!-- Start Dashboard Sidebar  -->
+                            <div class="rbt-default-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
+                                <div class="inner">
+                                    <div class="content-item-content">
+
+                                        <div class="rbt-default-sidebar-wrapper">
+                                            <div class="section-title mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Welcome, Jone Due' %}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorDashboard'%}"><i class="feather-home"></i><span>{% translate 'Dashboard' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorProfile'%}"><i class="feather-user"></i><span>{% translate 'My Profile' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorEnrolledCourses'%}"><i class="feather-book-open"></i><span>{% translate 'Enrolled Courses' %}</span></a></li>
+                                                    
+                                                    <li><a href="{% url 'instructorReviews'%}"><i class="feather-star"></i><span>{% translate 'Reviews' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorMyQuizAttempts'%}"><i class="feather-help-circle"></i><span>{% translate 'My Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorOrderHistory'%}"><i class="feather-shopping-bag"></i><span>{% translate 'Order History' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Instructor' %}</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorCourse' %}"><i class="feather-monitor"></i><span>{% translate 'My Courses' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorAnnouncements'%}"><i class="feather-volume-2"></i><span>{% translate 'Announcements' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorQuizAttempts'%}"><i class="feather-message-square"></i><span>{% translate 'Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorAssignments'%}"><i class="feather-list"></i><span>{% translate 'Assignments' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'User' %}</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorSettings'%}"><i class="feather-settings"></i><span>{% translate 'Settings' %}</span></a></li>
+                                                    <li><a href="{% url 'logout' %}"><i class="feather-log-out"></i><span>{% translate 'Logout' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Dashboard Sidebar  -->
+                        </div>
+
+                        <div class="col-lg-9">
+                            <!-- Start Enrole Course  -->
+                            <div class="rbt-dashboard-content bg-color-white rbt-shadow-box">
+                                <div class="content">
+                                    <div class="section-title">
+                                        <h4 class="rbt-title-style-3">{% translate 'Announcements' %}
+                                        </h4>
+                                    </div>
+
+                                    <!-- Start Call To Action  -->
+                                    <div class="rbt-callto-action rbt-cta-default style-2">
+                                        <div class="content-wrapper overflow-hidden pt--30 pb--30 bg-color-primary-opacity">
+                                            <div class="row gy-5 align-items-end">
+                                                <div class="col-lg-8">
+                                                    <div class="inner">
+                                                        <div class="content text-left">
+                                                            <h5 class="mb--5">{% translate 'Notify your all students.' %}</h5>
+                                                            <p class="b3">{% translate 'Create Announcement' %}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="call-to-btn text-start text-lg-end position-relative">
+                                                        <a class="rbt-btn btn-sm rbt-switch-btn rbt-switch-y" href="#">
+                                                            <span data-text="Add New Announcement">{% translate 'Add New Announcement' %}</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Call To Action  -->
+
+                                    <!-- Start Filter -->
+                                    <div class="rbt-dashboard-filter-wrapper mt--60">
+                                        <div class="row g-5">
+                                            <div class="col-lg-6">
+                                                <div class="filter-select rbt-modern-select">
+                                                    <span class="select-label d-block">{% translate 'Courses' %}</span>
+                                                    <select class="w-100" data-live-search="true" title="{% translate 'All' %}" multiple data-size="7" data-actions-box="true" data-selected-text-format="count > 2">
+                                                        <option data-subtext="HTML">{% translate 'Web Design' %}</option>
+                                                        <option data-subtext="Photoshop">{% translate 'Graphic' %}</option>
+                                                        <option data-subtext="Career">{% translate 'English' %}</option>
+                                                        <option data-subtext="Career">{% translate 'Spoken English' %}</option>
+                                                        <option data-subtext="Experts">{% translate 'Art Painting' %}</option>
+                                                        <option data-subtext="Experts">{% translate 'App Development' %}</option>
+                                                        <option data-subtext="Experts">{% translate 'Web Application' %}</option>
+                                                        <option data-subtext="Experts">{% translate 'Php Development' %}</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="filter-select rbt-modern-select">
+                                                    <span class="select-label d-block">{% translate 'Short By' %}</span>
+                                                    <select class="w-100">
+                                                        <option>{% translate 'Default' %}</option>
+                                                        <option>{% translate 'Latest' %}</option>
+                                                        <option>{% translate 'Popularity' %}</option>
+                                                        <option>{% translate 'Trending' %}</option>
+                                                        <option>{% translate 'Price: low to high' %}</option>
+                                                        <option>{% translate 'Price: high to low' %}</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="filter-select rbt-modern-select">
+                                                    <span class="select-label d-block">{% translate 'Short By Offer' %}</span>
+                                                    <select class="w-100">
+                                                        <option>{% translate 'Free' %}</option>
+                                                        <option>{% translate 'Paid' %}</option>
+                                                        <option>{% translate 'Premium' %}</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Filter -->
+
+                                    <hr class="mt--30">
+
+                                    <div class="rbt-dashboard-table table-responsive mobile-table-750 mt--30">
+                                        <table class="rbt-table table table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th>{% translate 'Date' %}</th>
+                                                    <th>{% translate 'Announcements' %}</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <span class="h6 mb--5">March 16, 2024</span>
+                                                        <p class="b3">10.00am</p>
+                                                    </th>
+                                                    <td>
+                                                        <span class="h6 mb--5">{% translate 'Announcement Title' %}</span>
+                                                        <p class="b3">{% translate 'Course: Fundamentals 101' %}</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="rbt-button-group justify-content-end">
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-trash-2"></i> {% translate 'Delete' %}</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <span class="h6 mb--5">Janu 16, 2024</span>
+                                                        <p class="b3">12.00am</p>
+                                                    </th>
+                                                    <td>
+                                                        <span class="h6 mb--5">{% translate 'Web Design' %}</span>
+                                                        <p class="b3">{% translate 'Course: Web Design' %}</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="rbt-button-group justify-content-end">
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-trash-2"></i> {% translate 'Delete' %}</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <span class="h6 mb--5">Janu 16, 2024</span>
+                                                        <p class="b3">12.00am</p>
+                                                    </th>
+                                                    <td>
+                                                        <span class="h6 mb--5">{% translate 'App Development' %}</span>
+                                                        <p class="b3">{% translate 'Course: App Development' %}</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="rbt-button-group justify-content-end">
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-trash-2"></i> {% translate 'Delete' %}</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        <span class="h6 mb--5">Janu 16, 2024</span>
+                                                        <p class="b3">12.00am</p>
+                                                    </th>
+                                                    <td>
+                                                        <span class="h6 mb--5">{% translate 'Announcement Title' %}</span>
+                                                        <p class="b3">{% translate 'Course: Web Design' %}</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="rbt-button-group justify-content-end">
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                            <a class="rbt-btn-link left-icon" href="#"><i
+                                                                    class="feather-trash-2"></i> {% translate 'Delete' %}</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Enrole Course  -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card Style -->
+
+    {% include "partials/separator.html" %}
+
+{% endblock content %}

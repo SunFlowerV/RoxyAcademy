@@ -1,0 +1,281 @@
+{% extends '../../layout/layout.html' %}
+{% load i18n %}
+
+{% block content %}
+
+    <!-- Mobile Menu Section -->
+    <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/logo/roxy-academy.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                        <div class="logo d-none logo-light">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/dark/logo/roxy-academy-light.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description">{% translate 'Histudy is a education website template. You can customize all.' %}</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li><a href="mailto:hello@example.com"><i class="feather-mail"></i>example@gmail.com</a></li>
+                    <li><a href="#"><i class="feather-phone"></i>(302) 555-0107</a></li>
+                </ul>
+            </div>
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu"></ul>
+            </nav>
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="{% url 'createCourse' %}">
+                        <span>{% translate 'Create a New Course' %}</span>
+                    </a>
+                </div>
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">{% translate 'Find With Us' %}</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/"><i class="feather-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="feather-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="feather-instagram"></i></a></li>
+                        <li><a href="https://www.linkdin.com/"><i class="feather-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "partials/sideVav.html" %}
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+    {% include "partials/background.html" %}
+
+    <div class="rbt-dashboard-area rbt-section-overlayping-top rbt-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="rbt-dashboard-content-wrapper">
+                        <div class="tutor-bg-photo bg_image bg_image--22 height-350"></div>
+                        <div class="rbt-tutor-information">
+                            <div class="rbt-tutor-information-left">
+                                <div class="thumbnail rbt-avatars size-lg">
+                                    <img src="/static/images/team/avatar.jpg" alt="{% translate 'Instructor' %}">
+                                </div>
+                                <div class="tutor-content">
+                                    <h5 class="title">{{ request.user.get_full_name|default:request.user.username }}</h5>
+                                    <div class="rbt-review">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                        </div>
+                                        <span class="rating-count"> {% translate '(15 Reviews)' %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rbt-tutor-information-right">
+                                <div class="tutor-btn">
+                                    <a class="rbt-btn btn-md hover-icon-reverse" href="{% url 'createCourse' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Create a New Course' %}</span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-5">
+                        <div class="col-lg-3">
+                            <div class="rbt-default-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
+                                <div class="inner">
+                                    <div class="content-item-content">
+                                        <div class="rbt-default-sidebar-wrapper">
+                                            <div class="section-title mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Welcome, Jone Due' %}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorDashboard' %}"><i class="feather-home"></i><span>{% translate 'Dashboard' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorProfile' %}"><i class="feather-user"></i><span>{% translate 'My Profile' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorEnrolledCourses' %}"><i class="feather-book-open"></i><span>{% translate 'Enrolled Courses' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorReviews' %}"><i class="feather-star"></i><span>{% translate 'Reviews' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorMyQuizAttempts' %}"><i class="feather-help-circle"></i><span>{% translate 'My Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorOrderHistory' %}"><i class="feather-shopping-bag"></i><span>{% translate 'Order History' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'Instructor' %}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li class="active"><a href="{% url 'instructorCourse' %}"><i class="feather-monitor"></i><span>{% translate 'My Courses' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorAnnouncements' %}"><i class="feather-volume-2"></i><span>{% translate 'Announcements' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorQuizAttempts' %}"><i class="feather-message-square"></i><span>{% translate 'Quiz Attempts' %}</span></a></li>
+                                                    <li><a href="{% url 'instructorAssignments' %}"><i class="feather-list"></i><span>{% translate 'Assignments' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">{% translate 'User' %}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="{% url 'instructorSettings' %}"><i class="feather-settings"></i><span>{% translate 'Settings' %}</span></a></li>
+                                                    <li><a href="{% url 'logout' %}"><i class="feather-log-out"></i><span>{% translate 'Logout' %}</span></a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
+                                <div class="content">
+                                    <div class="d-flex justify-content-between align-items-center mb--30">
+                                        <div class="section-title mb--0">
+                                            <h4 class="rbt-title-style-3">{% translate 'My Courses' %}</h4>
+                                        </div>
+                                        <a class="rbt-btn btn-md hover-icon-reverse" href="{% url 'createCourse' %}">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">{% translate 'Create a New Course' %}</span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                    <div class="advance-tab-button mb--30">
+                                        <ul class="nav nav-tabs tab-button-style-2 justify-content-start" role="tablist">
+                                            <li role="presentation">
+                                                <a href="#publish-4" class="tab-button active" id="publish-tab-4" data-bs-toggle="tab" role="tab" aria-controls="publish-4" aria-selected="true">
+                                                    <span class="title">{% translate 'Publish' %} ({{ published_courses|length }})</span>
+                                                </a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="#archived-4" class="tab-button" id="archived-tab-4" data-bs-toggle="tab" role="tab" aria-controls="archived-4" aria-selected="false">
+                                                    <span class="title">{% translate 'Archived' %} ({{ archived_courses|length }})</span>
+                                                </a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="#draft-4" class="tab-button" id="draft-tab-4" data-bs-toggle="tab" role="tab" aria-controls="draft-4" aria-selected="false">
+                                                    <span class="title">{% translate 'Draft' %} ({{ draft_courses|length }})</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade active show" id="publish-4" role="tabpanel" aria-labelledby="publish-tab-4">
+                                            <div class="row g-5">
+                                                {% for course in published_courses %}
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        {% if course.thumbnail %}
+                                                        <div class="rbt-card-img"><img src="{{ course.thumbnail.url }}" alt="{{ course.title }}"></div>
+                                                        {% endif %}
+                                                        <div class="rbt-card-body">
+                                                            <h4 class="rbt-card-title">{{ course.title }}</h4>
+                                                            <p>{{ course.description|truncatechars:140 }}</p>
+                                                            <ul class="rbt-meta">
+                                                                <li>
+                                                                    {% if course.difficulty == 'all_levels' %}{% translate 'All Levels' %}
+                                                                    {% elif course.difficulty == 'beginner' %}{% translate 'Beginner' %}
+                                                                    {% elif course.difficulty == 'intermediate' %}{% translate 'Intermediate' %}
+                                                                    {% elif course.difficulty == 'advanced' %}{% translate 'Advanced' %}
+                                                                    {% elif course.difficulty == 'expert' %}{% translate 'Expert' %}
+                                                                    {% endif %}
+                                                                </li>
+                                                                <li>{% if course.is_free %}{% translate 'Free' %}{% else %}{{ course.price|floatformat:0 }} ₽{% endif %}</li>
+                                                            </ul>
+                                                            <a class="rbt-btn-link left-icon" href="{% url 'editCourse' course.id %}"><i class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {% empty %}
+                                                <div class="col-12"><p>{% translate 'No published courses yet.' %}</p></div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="archived-4" role="tabpanel" aria-labelledby="archived-tab-4">
+                                            <div class="row g-5">
+                                                {% for course in archived_courses %}
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        {% if course.thumbnail %}
+                                                        <div class="rbt-card-img"><img src="{{ course.thumbnail.url }}" alt="{{ course.title }}"></div>
+                                                        {% endif %}
+                                                        <div class="rbt-card-body">
+                                                            <h4 class="rbt-card-title">{{ course.title }}</h4>
+                                                            <p>{{ course.description|truncatechars:140 }}</p>
+                                                            <ul class="rbt-meta">
+                                                                <li>
+                                                                    {% if course.difficulty == 'all_levels' %}{% translate 'All Levels' %}
+                                                                    {% elif course.difficulty == 'beginner' %}{% translate 'Beginner' %}
+                                                                    {% elif course.difficulty == 'intermediate' %}{% translate 'Intermediate' %}
+                                                                    {% elif course.difficulty == 'advanced' %}{% translate 'Advanced' %}
+                                                                    {% elif course.difficulty == 'expert' %}{% translate 'Expert' %}
+                                                                    {% endif %}
+                                                                </li>
+                                                                <li>{% if course.is_free %}{% translate 'Free' %}{% else %}{{ course.price|floatformat:0 }} ₽{% endif %}</li>
+                                                            </ul>
+                                                            <a class="rbt-btn-link left-icon" href="{% url 'editCourse' course.id %}"><i class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {% empty %}
+                                                <div class="col-12"><p>{% translate 'No archived courses yet.' %}</p></div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="draft-4" role="tabpanel" aria-labelledby="draft-tab-4">
+                                            <div class="row g-5">
+                                                {% for course in draft_courses %}
+                                                <div class="col-lg-4 col-md-6 col-12">
+                                                    <div class="rbt-card variation-01 rbt-hover">
+                                                        {% if course.thumbnail %}
+                                                        <div class="rbt-card-img"><img src="{{ course.thumbnail.url }}" alt="{{ course.title }}"></div>
+                                                        {% endif %}
+                                                        <div class="rbt-card-body">
+                                                            <h4 class="rbt-card-title">{{ course.title }}</h4>
+                                                            <p>{{ course.description|truncatechars:140 }}</p>
+                                                            <ul class="rbt-meta">
+                                                                <li>
+                                                                    {% if course.difficulty == 'all_levels' %}{% translate 'All Levels' %}
+                                                                    {% elif course.difficulty == 'beginner' %}{% translate 'Beginner' %}
+                                                                    {% elif course.difficulty == 'intermediate' %}{% translate 'Intermediate' %}
+                                                                    {% elif course.difficulty == 'advanced' %}{% translate 'Advanced' %}
+                                                                    {% elif course.difficulty == 'expert' %}{% translate 'Expert' %}
+                                                                    {% endif %}
+                                                                </li>
+                                                                <li>{% if course.is_free %}{% translate 'Free' %}{% else %}{{ course.price|floatformat:0 }} ₽{% endif %}</li>
+                                                            </ul>
+                                                            <a class="rbt-btn-link left-icon" href="{% url 'editCourse' course.id %}"><i class="feather-edit"></i> {% translate 'Edit' %}</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {% empty %}
+                                                <div class="col-12"><p>{% translate 'No draft courses yet.' %}</p></div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

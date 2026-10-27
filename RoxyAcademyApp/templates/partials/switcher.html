@@ -1,0 +1,15 @@
+{% load i18n %}
+<div id="my_switcher" class="my_switcher">
+    <ul>
+        <li>
+            <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                <img src="/static/images/about/sun-01.svg" alt="{% translate 'Sun images' %}"><span title="{% translate 'Light Mode' %}"> {% translate 'Light' %}</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                <img src="/static/images/about/vector.svg" alt="{% translate 'Vector Images' %}"><span title="{% translate 'Dark Mode' %}"> {% translate 'Dark' %}</span>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,2889 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "$ Discounted Price"
+msgstr "Цена со скидкой"
+
+msgid "$ Regular Price"
+msgstr "Обычная цена"
+
+msgid "(10 Reviews)"
+msgstr "(10 отзывов)"
+
+msgid "(105+ Reviews)"
+msgstr "(более 105 отзывов)"
+
+msgid "(120) - 100% Positive Reviews"
+msgstr "(120) — 100% положительных отзывов"
+
+msgid "(15 Reviews)"
+msgstr "(15 отзывов)"
+
+msgid "(15) - 100% Positive Reviews"
+msgstr "(15) — 100% положительных отзывов"
+
+msgid "(3 Reviews)"
+msgstr "(3 отзыва)"
+
+msgid "(350) - 100% Positive Reviews"
+msgstr "(350) — 100% положительных отзывов"
+
+msgid "(4 Reviews)"
+msgstr "(4 отзыва)"
+
+msgid "(5 Reviews)"
+msgstr "(5 отзывов)"
+
+msgid "(75) - 100% Positive Reviews"
+msgstr "(75) — 100% положительных отзывов"
+
+msgid "(84) - 100% Positive Reviews"
+msgstr "(84) — 100% положительных отзывов"
+
+msgid "(9 Reviews)"
+msgstr "(9 отзывов)"
+
+msgid "(95) - 100% Positive Reviews"
+msgstr "(95) — 100% положительных отзывов"
+
+msgid "(If Not"
+msgstr "(Если нет"
+
+msgid "(Pick the quiz system\"s behaviour on choice based questions.)"
+msgstr "(Выберите, как тест должен обрабатывать вопросы с вариантами ответа.)"
+
+msgid ". All Rights Reserved."
+msgstr ". Все права защищены."
+
+msgid ".It enables developers to create"
+msgstr ".Это позволяет разработчикам создавать"
+
+msgid "/mo"
+msgstr "в месяц"
+
+msgid "0.5 min"
+msgstr "0,5 мин"
+
+msgid "0h 59m 41s"
+msgstr "0 ч 59 мин 41 с"
+
+msgid "1-click checkout"
+msgstr "Оформление заказа в один клик"
+
+msgid "1. True/False"
+msgstr "1. Верно/неверно"
+
+msgid "1. What are the key features of Next.js ?"
+msgstr "1. Каковы основные возможности Next.js?"
+
+msgid "1. What is the capital of France?"
+msgstr "1. Какова столица Франции?"
+
+msgid "10 Brilliant Ways To Advertise Education"
+msgstr "10 отличных способов продвигать образование"
+
+msgid "10 Lessons"
+msgstr "10 занятий"
+
+msgid "10 Students"
+msgstr "10 студентов"
+
+msgid "100k Followers"
+msgstr "100 тыс. подписчиков"
+
+msgid "10K+"
+msgstr "Более 10 тыс."
+
+msgid "12 Lessons"
+msgstr "12 занятий"
+
+msgid "14 Lessons"
+msgstr "14 занятий"
+
+msgid "15 Common Myths About Education"
+msgstr "15 распространённых мифов об образовании"
+
+msgid "15 Things To Know About Education?"
+msgstr "15 фактов об образовании"
+
+msgid "15 min"
+msgstr "15 мин"
+
+msgid "16 Courses"
+msgstr "16 курсов"
+
+msgid "1hr 30min"
+msgstr "1 ч 30 мин"
+
+msgid "1hr 50min"
+msgstr "1 ч 50 мин"
+
+msgid "2. Single Choice"
+msgstr "2. Один вариант ответа"
+
+msgid "2. What is the Javascript?"
+msgstr "2. Что такое JavaScript?"
+
+msgid "20 Courses"
+msgstr "20 курсов"
+
+msgid "20 Lessons"
+msgstr "20 занятий"
+
+msgid "20 min"
+msgstr "20 мин"
+
+msgid "2000+ Our students are subscribe Around the World."
+msgstr "Более 2000 наших студентов со всего мира подписаны на рассылку."
+
+msgid "215,475 rating"
+msgstr "215 475 оценок"
+
+msgid "24/7 Dedicated Support"
+msgstr "Круглосуточная поддержка"
+
+msgid "26 Students"
+msgstr "26 студентов"
+
+msgid "2hr 20min"
+msgstr "2 ч 20 мин"
+
+msgid "2hr 30min"
+msgstr "2 ч 30 мин"
+
+msgid "2hr 60min"
+msgstr "2 ч 60 мин"
+
+msgid "3 days left!"
+msgstr "Осталось 3 дня!"
+
+msgid "3. Multiple Choice"
+msgstr "3. Несколько вариантов ответа"
+
+msgid "3. NextJs is a Framework?"
+msgstr "3. Next.js — это фреймворк?"
+
+msgid "30 Students"
+msgstr "30 студентов"
+
+msgid "30 min"
+msgstr "30 мин"
+
+msgid "30-Day Money-Back Guarantee"
+msgstr "Гарантия возврата денег в течение 30 дней"
+
+msgid "300K+"
+msgstr "Более 300 тыс."
+
+msgid "32 sections • 376 lectures • 27h 8m total length"
+msgstr "32 раздела • 376 лекций • общая продолжительность — 27 ч 8 мин"
+
+msgid "4 Certificate"
+msgstr "Сертификат 4"
+
+msgid "4. Fill in the Blanks"
+msgstr "4. Заполните пропуски"
+
+msgid "4. Open Ended"
+msgstr "4. Развёрнутый ответ"
+
+msgid "4.4 Rating"
+msgstr "Рейтинг: 4,4"
+
+msgid "40 Students"
+msgstr "40 студентов"
+
+msgid "5 Courses Enroled"
+msgstr "Записано на 5 курсов"
+
+msgid "5 Hrs 20 Min"
+msgstr "5 ч 20 мин"
+
+msgid "5 PPC Campaigns"
+msgstr "5 PPC-кампаний"
+
+msgid "5. Fill in the Blanks"
+msgstr "5. Заполните пропуски"
+
+msgid "5. What are the key features of Next.js ?"
+msgstr "5. Каковы основные возможности Next.js?"
+
+msgid "50 Lessons"
+msgstr "50 занятий"
+
+msgid "50 Products"
+msgstr "50 товаров"
+
+msgid "50 Students"
+msgstr "50 студентов"
+
+msgid "500k"
+msgstr "500 тыс."
+
+msgid "500k Followers"
+msgstr "500 тыс. подписчиков"
+
+msgid "6. Change Question Order"
+msgstr "6. Изменить порядок вопросов"
+
+msgid "6. Sort Answer"
+msgstr "6. Сортировать ответы"
+
+msgid "616,029 students"
+msgstr "616 029 студентов"
+
+msgid "7 Facts About Education That Will Blow"
+msgstr "7 удивительных фактов об образовании"
+
+msgid "7. Matching"
+msgstr "7. Сопоставление"
+
+msgid "700x430 pixels,"
+msgstr "700 × 430 пикселей,"
+
+msgid "75,237 Reviews"
+msgstr "75 237 отзывов"
+
+msgid "8 Lessons"
+msgstr "8 занятий"
+
+msgid "8 interactive quiz types"
+msgstr "8 интерактивных типов тестов"
+
+msgid "8. Image Matching"
+msgstr "8. Сопоставление изображений"
+
+msgid "912,970 Students"
+msgstr "912 970 студентов"
+
+msgid "ACTIVE COURSES"
+msgstr "АКТИВНЫЕ КУРСЫ"
+
+msgid "About Course"
+msgstr "О курсе"
+
+msgid "About Histudy"
+msgstr "О Histudy"
+
+msgid "About Images"
+msgstr "Изображения раздела «О нас»"
+
+msgid "About Lesson"
+msgstr "О занятии"
+
+msgid "About Us"
+msgstr "О нас"
+
+msgid "Account Details"
+msgstr "Данные учётной записи"
+
+msgid "Account Registering"
+msgstr "Регистрация учётной записи"
+
+msgid "Accounting"
+msgstr "Бухгалтерский учёт"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Active Courses"
+msgstr "Активные курсы"
+
+msgid "Active Plan Mode."
+msgstr "Режим активного плана."
+
+msgid "Add Lesson"
+msgstr "Добавить занятие"
+
+msgid "Add New Announcement"
+msgstr "Добавить объявление"
+
+msgid "Add New Topic"
+msgstr "Добавить новую тему"
+
+msgid "Add Question"
+msgstr "Добавить вопрос"
+
+msgid "Add Review"
+msgstr "Оставить отзыв"
+
+msgid "Add To Cart"
+msgstr "В корзину"
+
+msgid "Add Topic"
+msgstr "Добавить тему"
+
+msgid "Add Topics in the Course Builder section to create lessons, quizzes, and assignments."
+msgstr "Добавьте темы в конструкторе курса, чтобы создать занятия, тесты и задания."
+
+msgid "Add Your Video URL"
+msgstr "Добавить ссылку на видео"
+
+msgid "Add Your Video URL here."
+msgstr "Добавьте ссылку на видео"
+
+msgid "Add to Cart"
+msgstr "В корзину"
+
+msgid "Add your assignment content here."
+msgstr "Добавьте содержание задания"
+
+msgid "Add your course benefits here."
+msgstr "Добавьте преимущества курса"
+
+msgid "Add your course tag here."
+msgstr "Добавьте тег курса"
+
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Admin"
+msgstr "Администратор"
+
+msgid "Advance"
+msgstr "Продвинутый"
+
+msgid "Advanced"
+msgstr "Продвинутый"
+
+msgid "Advance Plans You can Get."
+msgstr "Доступные расширенные тарифы."
+
+msgid "Advance Settings"
+msgstr "Расширенные настройки"
+
+msgid "Archived"
+msgstr "Архив"
+
+msgid "Advanced Educator"
+msgstr "Опытный преподаватель"
+
+msgid "After purchasing the product need you any support you can be share with us with sending mail to pixcelsthemes@gmail.com."
+msgstr "Если после покупки товара вам понадобится помощь, напишите нам на pixcelsthemes@gmail.com."
+
+msgid "Age (required)"
+msgstr "Возраст (обязательно)"
+
+msgid "All"
+msgstr "Все"
+
+msgid "All Categories"
+msgstr "Все категории"
+
+msgid "All Levels"
+msgstr "Все уровни"
+
+msgid "All Products"
+msgstr "Все товары"
+
+msgid "All Rights Reserved"
+msgstr "Все права защищены"
+
+msgid "Allow to upload files"
+msgstr "Разрешить загрузку файлов"
+
+msgid "Android App Development with Histudy Beginner to Advanced"
+msgstr "Разработка приложений для Android с Histudy: от начального до продвинутого уровня"
+
+msgid "Angular Js long fact that a reader will be distracted by the readable."
+msgstr "Angular JS — это текст-заполнитель, призванный отвлечь читателя."
+
+msgid "Angular Learning looking for random paragraphs, you've come to the right place."
+msgstr "Изучаете Angular? Здесь вы найдёте случайные текстовые примеры."
+
+msgid "Angular Zero to Mastery"
+msgstr "Angular: от новичка до мастера"
+
+msgid "Announcement Title"
+msgstr "Заголовок объявления"
+
+msgid "Announcements"
+msgstr "Объявления"
+
+msgid "Answer Explanation"
+msgstr "Пояснение к ответу"
+
+msgid "Answer Required"
+msgstr "Ответ обязателен"
+
+msgid "Answer title"
+msgstr "Заголовок ответа"
+
+msgid "Answers shown after quiz is finished"
+msgstr "Показывать ответы после завершения теста"
+
+msgid "App Developer"
+msgstr "Разработчик приложений"
+
+msgid "App Development"
+msgstr "Разработка приложений"
+
+msgid "Application"
+msgstr "Приложение"
+
+msgid "Application Developer"
+msgstr "Разработчик приложений"
+
+msgid "Apply Code"
+msgstr "Применить код"
+
+msgid "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate."
+msgstr "Подайте заявку на поступление в программу последипломного образования. Срок подачи заявок на бакалавриат — 26 сентября."
+
+msgid "Approved"
+msgstr "Одобрено"
+
+msgid "Arabic For Beginners"
+msgstr "Арабский язык для начинающих"
+
+msgid "Arabic Writing"
+msgstr "Арабское письмо"
+
+msgid "Art"
+msgstr "Искусство"
+
+msgid "Art Painting"
+msgstr "Живопись"
+
+msgid "Ascending"
+msgstr "По возрастанию"
+
+msgid "Assignment"
+msgstr "Задание"
+
+msgid "Assignment Name"
+msgstr "Название задания"
+
+msgid "Assignment Submission"
+msgstr "Отправка задания"
+
+msgid "Assignment Title"
+msgstr "Название задания"
+
+msgid "Assignments"
+msgstr "Задания"
+
+msgid "At 29 years old, my favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
+msgstr "В 29 лет лучший комплимент для меня — когда говорят, что я похожа на маму. Я вижу себя в ней, как эта дочь на фотографии выше."
+
+msgid "At Histudy, we offer a variety of"
+msgstr "В Histudy мы предлагаем широкий выбор"
+
+msgid "Attachments"
+msgstr "Вложения"
+
+msgid "Attempts Allowed:"
+msgstr "Допустимое количество попыток:"
+
+msgid "Author Images"
+msgstr "Изображения автора"
+
+msgid "Awesome"
+msgstr "Отлично"
+
+msgid "Awesome Course"
+msgstr "Отличный курс"
+
+msgid "Awesome Header Style."
+msgstr "Прекрасный стиль шапки."
+
+msgid "BECAME A INSTRUCTOR"
+msgstr "СТАНЬТЕ ПРЕПОДАВАТЕЛЕМ"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Back To Home"
+msgstr "На главную"
+
+msgid "Back to first"
+msgstr "Вернуться к первому"
+
+msgid "Bangla"
+msgstr "Бенгальский"
+
+msgid "Basic"
+msgstr "Базовый"
+
+msgid "Basic Operators"
+msgstr "Основные операторы"
+
+msgid "Basic Plans You can Get."
+msgstr "Доступные базовые тарифы."
+
+msgid "Become Teacher"
+msgstr "Стать преподавателем"
+
+msgid "Become an Instructor"
+msgstr "Стать преподавателем"
+
+msgid "Become an advanced, confident, and modern JavaScript developer from scratch."
+msgstr "Станьте уверенным современным разработчиком на JavaScript с нуля."
+
+msgid "Become an advanced, confident."
+msgstr "Станьте уверенным специалистом."
+
+msgid "Beginner"
+msgstr "Начинающий"
+
+msgid "Best Seller Icon"
+msgstr "Значок бестселлера"
+
+msgid "Bestseller"
+msgstr "Бестселлер"
+
+msgid "Billing Address"
+msgstr "Платёжный адрес"
+
+msgid "Bio"
+msgstr "Краткая биография"
+
+msgid "Biography"
+msgstr "Биография"
+
+msgid "Blog Images"
+msgstr "Изображения блога"
+
+msgid "Book Store"
+msgstr "Книжный магазин"
+
+msgid "Bookmark"
+msgstr "Закладка"
+
+msgid "Brand Image"
+msgstr "Изображение бренда"
+
+msgid "Browse All Course"
+msgstr "Посмотреть все курсы"
+
+msgid "Build your Career And Upgrade Your Life"
+msgstr "Развивайте карьеру и улучшайте свою жизнь"
+
+msgid "Buy Now"
+msgstr "Купить"
+
+msgid "By"
+msgstr "Автор"
+
+msgid "By John Due"
+msgstr "Автор: John Due"
+
+msgid "By: Hal Elrod"
+msgstr "Автор: Hal Elrod"
+
+msgid "CEO"
+msgstr "Генеральный директор"
+
+msgid "Calculate Shipping"
+msgstr "Рассчитать стоимость доставки"
+
+msgid "Call Us:"
+msgstr "Позвоните нам:"
+
+msgid "Call us now"
+msgstr "Позвоните нам"
+
+msgid "Can I get update regularly and For how long do I get updates?"
+msgstr "Будут ли регулярно выходить обновления и как долго они будут доступны?"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Canceled"
+msgstr "Отменено"
+
+msgid "Card image"
+msgstr "Изображение карточки"
+
+msgid "Career"
+msgstr "Карьера"
+
+msgid "Cart"
+msgstr "Корзина"
+
+msgid "Cart Summary"
+msgstr "Итог корзины"
+
+msgid "Categories:"
+msgstr "Категории:"
+
+msgid "Certificate"
+msgstr "Сертификат"
+
+msgid "Certificate Image"
+msgstr "Изображение сертификата"
+
+msgid "Certificate Template"
+msgstr "Шаблон сертификата"
+
+msgid "Certification Students"
+msgstr "Сертифицированные студенты"
+
+msgid "Certified Course"
+msgstr "Сертифицированный курс"
+
+msgid "Character Remaining: 500"
+msgstr "Осталось символов: 500"
+
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+msgid "Child"
+msgstr "Ребёнок"
+
+msgid "Choose Categories"
+msgstr "Выбрать категории"
+
+msgid "Choose a File"
+msgstr "Выбрать файл"
+
+msgid "Choose language"
+msgstr "Выбрать язык"
+
+msgid "A top English language course"
+msgstr "Топовый курс по английскому языку"
+
+msgid "A complete course in English pronunciation"
+msgstr "Полноценный курс по английскому произношению"
+
+msgid "Sign in"
+msgstr "Войти"
+
+msgid "You are signed in as %(username)s."
+msgstr "Вы вошли как %(username)s."
+
+msgid "Log out"
+msgstr "Выйти"
+
+msgid "Username or email *"
+msgstr "Имя пользователя или электронная почта *"
+
+msgid "Password *"
+msgstr "Пароль *"
+
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+msgid "Forgot your password?"
+msgstr "Забыли пароль?"
+
+msgid "Create an account"
+msgstr "Регистрация"
+
+msgid "Email *"
+msgstr "Электронная почта *"
+
+msgid "Username *"
+msgstr "Имя пользователя *"
+
+msgid "Confirm password *"
+msgstr "Подтвердите пароль *"
+
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+msgid "Clint Images"
+msgstr "Изображения клиентов"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Complete"
+msgstr "Завершено"
+
+msgid "Complete app development course with HiStudy"
+msgstr "Полный курс разработки приложений на HiStudy"
+
+msgid "Complete guideline"
+msgstr "Полное руководство"
+
+msgid "Completed"
+msgstr "Завершено"
+
+msgid "Completed Courses"
+msgstr "Завершённые курсы"
+
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+msgid "Contact"
+msgstr "Контакты"
+
+msgid "Contact Images"
+msgstr "Изображения контактов"
+
+msgid "Contact Phone Number"
+msgstr "Контактный телефон"
+
+msgid "Contact US"
+msgstr "Связаться с нами"
+
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+msgid "Contact With Us"
+msgstr "Связаться с нами"
+
+msgid "Content Drip"
+msgstr "Постепенное открытие материалов"
+
+msgid "Content Drip Type"
+msgstr "Тип постепенного открытия материалов"
+
+msgid "Content Here"
+msgstr "Содержание"
+
+msgid "Content available after X days from enrollment"
+msgstr "Материалы доступны через указанное количество дней после записи на курс"
+
+msgid "Continue Course"
+msgstr "Продолжить курс"
+
+msgid "Copyright © 2025"
+msgstr "Авторское право © 2025"
+
+msgid "Corporate Template"
+msgstr "Корпоративный шаблон"
+
+msgid "Correct"
+msgstr "Правильно"
+
+msgid "Correct Answer"
+msgstr "Правильный ответ"
+
+msgid "Coupon Code"
+msgstr "Код купона"
+
+msgid "Course"
+msgstr "Курс"
+
+msgid "Course Builder"
+msgstr "Конструктор курса"
+
+msgid "Course Builder is where you create & organize a course."
+msgstr "В конструкторе курса можно создавать курсы и управлять их структурой."
+
+msgid "Course Category"
+msgstr "Категория курса"
+
+msgid "Course Content"
+msgstr "Содержание курса"
+
+msgid "Course Description"
+msgstr "Описание курса"
+
+msgid "Course Fundamentals"
+msgstr "Основы курса"
+
+msgid "Course Guideline"
+msgstr "Рекомендации к курсу"
+
+msgid "Course Info"
+msgstr "Информация о курсе"
+
+msgid "Course Intro"
+msgstr "Введение в курс"
+
+msgid "Course Intro Video"
+msgstr "Видеовведение в курс"
+
+msgid "Course Name"
+msgstr "Название курса"
+
+msgid "Course Price"
+msgstr "Цена курса"
+
+msgid "Course Rating"
+msgstr "Рейтинг курса"
+
+msgid "Course School"
+msgstr "Учебное заведение"
+
+msgid "Course Settings"
+msgstr "Настройки курса"
+
+msgid "Course Slug"
+msgstr "Адрес курса"
+
+msgid "Course Tags"
+msgstr "Теги курса"
+
+msgid "Course Thumbnail"
+msgstr "Обложка курса"
+
+msgid "Course Title"
+msgstr "Название курса"
+
+msgid "Current intro video"
+msgstr "Текущее вводное видео"
+
+msgid "Course Upload Tips"
+msgstr "Советы по загрузке курса"
+
+msgid "Course content available sequentially"
+msgstr "Материалы курса открываются последовательно"
+
+msgid "Course content unlocked after finishing prerequisites"
+msgstr "Материалы курса станут доступны после завершения обязательных курсов"
+
+msgid "Course difficulty level"
+msgstr "Уровень сложности курса"
+
+msgid "Course:"
+msgstr "Курс:"
+
+msgid "Course: App Development"
+msgstr "Курс: разработка приложений"
+
+msgid "Course: English"
+msgstr "Курс: английский язык"
+
+msgid "Course: Fundamentals 101"
+msgstr "Курс: основы 101"
+
+msgid "Course: How to Web Design"
+msgstr "Курс: как создавать веб-дизайн"
+
+msgid "Course: How to Write Your First Novel"
+msgstr "Курс: как написать свой первый роман"
+
+msgid "Course: Web Design"
+msgstr "Курс: веб-дизайн"
+
+msgid "Courses"
+msgstr "Курсы"
+
+msgid "Create Announcement"
+msgstr "Создать объявление"
+
+msgid "Create Course"
+msgstr "Создать курс"
+
+msgid "Create a New Course"
+msgstr "Создать новый курс"
+
+msgid "Create data visualizations using matplotlib and the seaborn."
+msgstr "Создавайте визуализации данных с помощью matplotlib и seaborn."
+
+msgid "Create data visualizations."
+msgstr "Создавайте визуализации данных."
+
+msgid "Current Password"
+msgstr "Текущий пароль"
+
+msgid "Current career (required)"
+msgstr "Текущая профессия (обязательно)"
+
+msgid "Dark"
+msgstr "Тёмная тема"
+
+msgid "Dark Mode"
+msgstr "Тёмная тема"
+
+msgid "Dashboard"
+msgstr "Панель управления"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Date of birth (required)"
+msgstr "Дата рождения (обязательно)"
+
+msgid "Day"
+msgstr "День"
+
+msgid "Days"
+msgstr "Дни"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Define maximum file size attachment in MB"
+msgstr "Укажите максимальный размер файла вложения в МБ"
+
+msgid "Define the number of files that a student can upload in this assignment. Input 0 to disable the option to upload."
+msgstr "Укажите, сколько файлов студент может загрузить для этого задания. Введите 0, чтобы запретить загрузку."
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Depertment Head"
+msgstr "Руководитель отдела"
+
+msgid "Descending"
+msgstr "По убыванию"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Description (Optional)"
+msgstr "Описание (необязательно)"
+
+msgid "Design for Beginners"
+msgstr "Дизайн для начинающих"
+
+msgid "Details"
+msgstr "Подробнее"
+
+msgid "Deutsch"
+msgstr "Немецкий"
+
+msgid "Development"
+msgstr "Разработка"
+
+msgid "Difficult Things About Education."
+msgstr "Сложные вопросы образования."
+
+msgid "Difficulty Level"
+msgstr "Уровень сложности"
+
+msgid "Digital Marketing"
+msgstr "Цифровой маркетинг"
+
+msgid "Discount Coupon Code"
+msgstr "Код купона на скидку"
+
+msgid "Discounted Price ($)"
+msgstr "Цена со скидкой ($)"
+
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+msgid "Display format for options"
+msgstr "Формат отображения вариантов"
+
+msgid "Display name publicly as"
+msgstr "Показывать имя публично как"
+
+msgid "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"
+msgstr "Погрузитесь в React.js и изучите его с нуля! Изучите React, Hooks, Redux, маршрутизацию, анимацию, Next.js и многое другое!"
+
+msgid "Don’t be shy introduce yourself!"
+msgstr "Не стесняйтесь — расскажите о себе!"
+
+msgid "Down For Maintenance"
+msgstr "На обслуживании"
+
+msgid "Download"
+msgstr "Скачать"
+
+msgid "Download Certificate"
+msgstr "Скачать сертификат"
+
+msgid "Download File"
+msgstr "Скачать файл"
+
+msgid "Downloads"
+msgstr "Загрузки"
+
+msgid "Draft"
+msgstr "Черновик"
+
+msgid "Drop files here"
+msgstr "Перетащите файлы сюда"
+
+msgid "Due"
+msgstr "Срок"
+
+msgid "E-mail:"
+msgstr "Эл. почта:"
+
+msgid "EC2 Fundamentals"
+msgstr "Основы EC2"
+
+msgid "EC2 Instance Storage"
+msgstr "Хранилище экземпляров EC2"
+
+msgid "EDUCATION FOR EVERYONE"
+msgstr "ОБРАЗОВАНИЕ ДЛЯ ВСЕХ"
+
+msgid "Earned Marks"
+msgstr "Набранные баллы"
+
+msgid "Easy access & smart user dashboard"
+msgstr "Удобная и понятная панель управления"
+
+msgid "Ecommerce Website"
+msgstr "Сайт электронной коммерции"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Edit Course"
+msgstr "Редактировать курс"
+
+msgid "Edit Address"
+msgstr "Изменить адрес"
+
+msgid "Edit Cover Photo"
+msgstr "Изменить обложку"
+
+msgid "Education"
+msgstr "Образование"
+
+msgid "Education Images"
+msgstr "Изображения об образовании"
+
+msgid "Education Management"
+msgstr "Управление образованием"
+
+msgid "Email"
+msgstr "Электронная почта"
+
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+msgid "Email address (required)"
+msgstr "Адрес электронной почты (обязательно)"
+
+msgid "Enable"
+msgstr "Включить"
+
+msgid "Enable / Disable content drip"
+msgstr "Включить или отключить постепенное открытие материалов"
+
+msgid "Enable Course Preview"
+msgstr "Включить предпросмотр курса"
+
+msgid "Enable Q&A section for your course"
+msgstr "Включить раздел вопросов и ответов в курсе"
+
+msgid "English"
+msgstr "Английский"
+
+msgid "English Langiage Club"
+msgstr "Клуб английского языка"
+
+msgid "English Learning looking for random paragraphs, you've come to the right place."
+msgstr "Изучаете английский? Здесь вы найдёте случайные текстовые примеры."
+
+msgid "English Teacher"
+msgstr "Преподаватель английского языка"
+
+msgid "Enrol Course Now"
+msgstr "Записаться на курс"
+
+msgid "Enroll Now"
+msgstr "Записаться"
+
+msgid "Enrolled"
+msgstr "Записан"
+
+msgid "Enrolled Courses"
+msgstr "Записанные курсы"
+
+msgid "Enter Your E-Email"
+msgstr "Введите адрес электронной почты"
+
+msgid "Enter Your Email Here"
+msgstr "Введите адрес электронной почты"
+
+msgid "Enter for per line."
+msgstr "Введите каждое значение с новой строки."
+
+msgid "Estimate"
+msgstr "Расчёт"
+
+msgid "Example:"
+msgstr "Пример:"
+
+msgid "Executive"
+msgstr "Руководитель"
+
+msgid "Executive Chairman"
+msgstr "Председатель правления"
+
+msgid "Executive Designer"
+msgstr "Ведущий дизайнер"
+
+msgid "Executive Officer"
+msgstr "Исполнительный директор"
+
+msgid "Expand all sections"
+msgstr "Развернуть все разделы"
+
+msgid "Experienced Teacher's service."
+msgstr "Услуги опытного преподавателя."
+
+msgid "Expert"
+msgstr "Эксперт"
+
+msgid "Expert Instructor"
+msgstr "Опытный преподаватель"
+
+msgid "Expire"
+msgstr "Истекает"
+
+msgid "Explore Course"
+msgstr "Посмотреть курсы"
+
+msgid "External URL"
+msgstr "Внешняя ссылка"
+
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+msgid "Fail"
+msgstr "Не сдано"
+
+msgid "False"
+msgstr "Неверно"
+
+msgid "Faqs"
+msgstr "Часто задаваемые вопросы"
+
+msgid "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."
+msgstr "Далеко-далеко, за словесными горами, в стране Вокалия и Консонантия."
+
+msgid "Feature Image"
+msgstr "Основное изображение"
+
+msgid "Featured review"
+msgstr "Избранный отзыв"
+
+msgid "Feedback"
+msgstr "Обратная связь"
+
+msgid "File Support:"
+msgstr "Поддерживаемые файлы:"
+
+msgid "Fill in the Blanks"
+msgstr "Заполнить пропуски"
+
+msgid "Find With Us"
+msgstr "Мы в соцсетях"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Five Things You Should Do In Education."
+msgstr "Пять вещей, которые стоит сделать в сфере образования."
+
+msgid "Flexible Classes"
+msgstr "Гибкий график занятий"
+
+msgid "Followers"
+msgstr "Подписчики"
+
+msgid "For details about the course"
+msgstr "Подробнее о курсе"
+
+msgid "Français"
+msgstr "Французский"
+
+msgid "Free"
+msgstr "Бесплатно"
+
+msgid "Frence"
+msgstr "Франция"
+
+msgid "Fundamentals 101"
+msgstr "Основы 101"
+
+msgid "GET IT NOW"
+msgstr "ПОЛУЧИТЬ СЕЙЧАС"
+
+msgid "GYM Coaching"
+msgstr "Тренировки в спортзале"
+
+msgid "General"
+msgstr "Общий"
+
+msgid "Get Award"
+msgstr "Получить награду"
+
+msgid "Get Contact"
+msgstr "Контактная информация"
+
+msgid "Get Free Course"
+msgstr "Получить бесплатный курс"
+
+msgid "Get Latest Histudy Update"
+msgstr "Получайте последние новости Histudy"
+
+msgid "Get a Certificate"
+msgstr "Получить сертификат"
+
+msgid "Get a Free Course You Can Contact With Me"
+msgstr "Получите бесплатный курс — свяжитесь со мной"
+
+msgid "Get the most advanced template"
+msgstr "Получите самый современный шаблон"
+
+msgid "Getting Started"
+msgstr "Начало работы"
+
+msgid "Getting started with AWS"
+msgstr "Начало работы с AWS"
+
+msgid "Given"
+msgstr "Выдано"
+
+msgid "Given Answer"
+msgstr "Данный ответ"
+
+msgid "Go Back to Course"
+msgstr "Вернуться к курсу"
+
+msgid "Good"
+msgstr "Хорошо"
+
+msgid "Got Hired"
+msgstr "Найти работу"
+
+msgid "Grand Total"
+msgstr "Общая сумма"
+
+msgid "Graphic"
+msgstr "Графика"
+
+msgid "Graphic Courses Club"
+msgstr "Клуб графических курсов"
+
+msgid "HTML or plain text allowed, no emoji This field is used for search, so please be descriptive!"
+msgstr "Допускается HTML или обычный текст без эмодзи. Поле используется для поиска, поэтому укажите подробное описание."
+
+msgid "Hand Emojji Images"
+msgstr "Изображение руки"
+
+msgid "Happy Days"
+msgstr "Счастливые дни"
+
+msgid "Happy Strong"
+msgstr "Здоровье и сила"
+
+msgid "Have a portfolio of various data analysis projects."
+msgstr "Создайте портфолио проектов по анализу данных."
+
+msgid "Have a portfolio of various."
+msgstr "Создайте портфолио из разных проектов."
+
+msgid "Have an intermediate skill level of Python programming."
+msgstr "Освойте Python на среднем уровне."
+
+msgid "Have an intermediate skill."
+msgstr "Достигните среднего уровня."
+
+msgid "Have any Question?"
+msgstr "Есть вопросы?"
+
+msgid "Header"
+msgstr "Шапка"
+
+msgid "Header (01)."
+msgstr "Шапка (01)."
+
+msgid "Header (02)."
+msgstr "Шапка (02)."
+
+msgid "Header (03)."
+msgstr "Шапка (03)."
+
+msgid "Header (04)."
+msgstr "Шапка (04)."
+
+msgid "Header (05)."
+msgstr "Шапка (05)."
+
+msgid "Header (06)."
+msgstr "Шапка (06)."
+
+msgid "Header (07)."
+msgstr "Шапка (07)."
+
+msgid "Header (08)."
+msgstr "Шапка (08)."
+
+msgid "Header (09)."
+msgstr "Шапка (09)."
+
+msgid "Header (10)."
+msgstr "Шапка (10)."
+
+msgid "Header (11)."
+msgstr "Шапка (11)."
+
+msgid "Header (12)."
+msgstr "Шапка (12)."
+
+msgid "Hello World!"
+msgstr "Привет, мир!"
+
+msgid "Hello! Web Development Course"
+msgstr "Здравствуйте! Курс веб-разработки"
+
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+msgid "Hide question number"
+msgstr "Скрыть номер вопроса"
+
+msgid "Hide quiz time - display"
+msgstr "Скрыть время теста"
+
+msgid "Hide this modal and show the first with the button below."
+msgstr "Нажмите кнопку ниже, чтобы закрыть это окно и показать первое."
+
+msgid "Hindi"
+msgstr "Хинди"
+
+msgid "Hired List"
+msgstr "Список трудоустроенных"
+
+msgid "Histudy Assignments"
+msgstr "Задания Histudy"
+
+msgid "Histudy Assignments Submit"
+msgstr "Отправка заданий Histudy"
+
+msgid "Histudy Book Image"
+msgstr "Изображение книги Histudy"
+
+msgid "Histudy Course Contact"
+msgstr "Контакты курса Histudy"
+
+msgid "Histudy Course Privacy Policy Here."
+msgstr "Политика конфиденциальности курса Histudy"
+
+msgid "Histudy Course Purchase Guide Here."
+msgstr "Руководство по покупке курса Histudy"
+
+msgid "Histudy Currency"
+msgstr "Валюта Histudy"
+
+msgid "Histudy Financial Aid"
+msgstr "Финансовая помощь Histudy"
+
+msgid "Histudy Quiz"
+msgstr "Тест Histudy"
+
+msgid "Histudy Quiz Result"
+msgstr "Результаты теста Histudy"
+
+msgid "Histudy Quiz Start"
+msgstr "Начало теста Histudy"
+
+msgid "Histudy educational platform"
+msgstr "Образовательная платформа Histudy"
+
+msgid "Histudy is a education website template. You can customize all."
+msgstr "Histudy — шаблон образовательного сайта, который можно полностью настроить."
+
+msgid "Hobbies & interests (required)"
+msgstr "Хобби и интересы (обязательно)"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Hot"
+msgstr "Популярное"
+
+msgid "Hour"
+msgstr "Час"
+
+msgid "Hour."
+msgstr "Час."
+
+msgid "Hours"
+msgstr "Часы"
+
+msgid "How We Work"
+msgstr "Как мы работаем"
+
+msgid "How can I get the customer support?"
+msgstr "Как связаться со службой поддержки?"
+
+msgid "How to Purchase a Course?"
+msgstr "Как купить курс?"
+
+msgid "How to Write Your First Novel"
+msgstr "Как написать свой первый роман"
+
+msgid "How we collect personal information"
+msgstr "Как мы собираем персональную информацию"
+
+msgid "If you enable this option, the quiz will start automatically after the page is loaded."
+msgstr "Если включить эту настройку, тест автоматически начнётся после загрузки страницы."
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Image Icon"
+msgstr "Значок изображения"
+
+msgid "Image Matching"
+msgstr "Сопоставление изображений"
+
+msgid "Image Only"
+msgstr "Только изображение"
+
+msgid "Import Quiz"
+msgstr "Импортировать тест"
+
+msgid "In"
+msgstr "В"
+
+msgid "Incorrect"
+msgstr "Неверно"
+
+msgid "Incorrect Answer"
+msgstr "Неправильный ответ"
+
+msgid "Information from the Additional Data section shows up on the course single page."
+msgstr "Информация из раздела «Дополнительные данные» отображается на странице курса."
+
+msgid "Input options for the question and select the correct answer."
+msgstr "Укажите варианты ответа и выберите правильный."
+
+msgid "Instructor"
+msgstr "Преподаватель"
+
+msgid "Intermediate"
+msgstr "Средний уровень"
+
+msgid "Intro price. Get Histudy for Big Sale -95% off."
+msgstr "Стартовая цена! Большая распродажа Histudy — скидка 95%."
+
+msgid "Intro to Course and Histudy"
+msgstr "Знакомство с курсом и Histudy"
+
+msgid "Introduction"
+msgstr "Введение"
+
+msgid "Introduction to Calculus"
+msgstr "Введение в математический анализ"
+
+msgid "Introduction to Our Histudy"
+msgstr "Знакомство с Histudy"
+
+msgid "Intructor"
+msgstr "Преподаватель"
+
+msgid "It is a long established fact that a reader will be distracted by the readable."
+msgstr "Давно известно, что читаемое содержимое страницы отвлекает читателя."
+
+msgid "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+msgstr "Давно известно, что читаемое содержимое страницы отвлекает внимание при просмотре её макета."
+
+msgid "It is a long established fact that a reader will be distracted."
+msgstr "Давно известно, что читатель может отвлечься."
+
+msgid "JPG, JPEG, PNG, GIF, WEBP"
+msgstr "JPG, JPEG, PNG, GIF, WEBP"
+
+msgid "Java Program"
+msgstr "Программа на Java"
+
+msgid "Javascript Learning looking for random paragraphs, you've come to the right place."
+msgstr "Изучаете JavaScript? Здесь вы найдёте случайные текстовые примеры."
+
+msgid "John is a brilliant educator, whose life was spent for computer science and love of nature."
+msgstr "Джон — выдающийся педагог, посвятивший жизнь информатике и любви к природе."
+
+msgid "Join Now"
+msgstr "Присоединиться"
+
+msgid "Know About Histudy"
+msgstr "Узнайте о Histudy"
+
+msgid "Know About Us"
+msgstr "Узнайте о нас"
+
+msgid "Landscape"
+msgstr "Альбомная ориентация"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Language Images"
+msgstr "Изображения языков"
+
+msgid "Languages"
+msgstr "Языки"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Last updated 12/2024"
+msgstr "Последнее обновление: 12/2024"
+
+msgid "Latest"
+msgstr "Последние"
+
+msgid "Learn From Anywhere"
+msgstr "Учитесь где угодно"
+
+msgid "Learn More"
+msgstr "Подробнее"
+
+msgid "Learn More About Us"
+msgstr "Узнать о нас больше"
+
+msgid "Learners & counting"
+msgstr "учащихся и дальше"
+
+msgid "Learners Feedback"
+msgstr "Отзывы учащихся"
+
+msgid "Learning Platform"
+msgstr "Образовательная платформа"
+
+msgid "Learning communicate to global world and build a bright future with our histudy."
+msgstr "Учитесь общаться со всем миром и стройте светлое будущее вместе с Histudy."
+
+msgid "Leave a Reply"
+msgstr "Оставить ответ"
+
+msgid "Lectures"
+msgstr "Лекции"
+
+msgid "Lesson"
+msgstr "Занятие"
+
+msgid "Lesson Name"
+msgstr "Название занятия"
+
+msgid "Lesson One"
+msgstr "Занятие первое"
+
+msgid "Lesson Summary"
+msgstr "Краткое описание занятия"
+
+msgid "Lesson titles are displayed publicly wherever required. Each Lesson may contain one or more lessons, quiz and assignments."
+msgstr "Названия занятий отображаются публично. Каждое занятие может включать одно или несколько занятий, тестов и заданий."
+
+msgid "Lesson two"
+msgstr "Занятие второе"
+
+msgid "Let us analyze the greatest hits of the past and learn what makes these tracks so special."
+msgstr "Давайте разберём лучшие хиты прошлого и узнаем, что делает их особенными."
+
+msgid "Light"
+msgstr "Светлая тема"
+
+msgid "Light Mode"
+msgstr "Светлая тема"
+
+msgid "Limited Time Offer"
+msgstr "Предложение ограничено по времени"
+
+msgid "Local"
+msgstr "Локальный"
+
+msgid "Location:"
+msgstr "Местоположение:"
+
+msgid "Log in to Start"
+msgstr "Войдите, чтобы начать"
+
+msgid "Login & Register"
+msgstr "Вход и регистрация"
+
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+msgstr "Lorem Ipsum — это текст-заполнитель, используемый в печатной индустрии и вёрстке с давних времён."
+
+msgid "Make This Course Public. No enrollment required."
+msgstr "Сделать курс общедоступным. Запись не требуется."
+
+msgid "Making Courses"
+msgstr "Создание курсов"
+
+msgid "Mark:"
+msgstr "Оценка:"
+
+msgid "Marketing"
+msgstr "Маркетинг"
+
+msgid "Marketing Agency"
+msgstr "Маркетинговое агентство"
+
+msgid "Marketplace"
+msgstr "Торговая площадка"
+
+msgid "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!"
+msgstr "Освойте Python, создав 100 проектов за 100 дней. Изучите науку о данных и автоматизацию, создавайте сайты, игры и приложения!"
+
+msgid "Matching"
+msgstr "Сопоставление"
+
+msgid "Math"
+msgstr "Математика"
+
+msgid "Math Teacher"
+msgstr "Преподаватель математики"
+
+msgid "Max Question Allowed to Answer"
+msgstr "Максимальное количество вопросов для ответа"
+
+msgid "Maximum Students"
+msgstr "Максимальное количество студентов"
+
+msgid "Maximum file size limit"
+msgstr "Максимальный размер файла"
+
+msgid "Maximum points a student can score"
+msgstr "Максимальное количество баллов, которое может набрать студент"
+
+msgid "Membership Policy"
+msgstr "Правила участия"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Minimum Pass Points"
+msgstr "Минимальное количество баллов для сдачи"
+
+msgid "Minimum points required for the student to pass this assignment."
+msgstr "Минимальное количество баллов, необходимое для выполнения задания."
+
+msgid "Minute."
+msgstr "Минута."
+
+msgid "Minutes"
+msgstr "Минуты"
+
+msgid "Miracle Morning"
+msgstr "Чудесное утро"
+
+msgid "Mission."
+msgstr "Миссия."
+
+msgid "Mobile phone numbers (required)"
+msgstr "Номер мобильного телефона (обязательно)"
+
+msgid "Modal"
+msgstr "Модальное окно"
+
+msgid "Modal 1"
+msgstr "Модальное окно 1"
+
+msgid "Modal 2"
+msgstr "Модальное окно 2"
+
+msgid "Momentum Theorem"
+msgstr "Теорема об импульсе"
+
+msgid "Month Required"
+msgstr "Требуемый месяц"
+
+msgid "More About Us"
+msgstr "Подробнее о нас"
+
+msgid "More Course By"
+msgstr "Другие курсы автора"
+
+msgid "More Similar Courses"
+msgstr "Похожие курсы"
+
+msgid "Motivation"
+msgstr "Мотивация"
+
+msgid "Multi Choice"
+msgstr "Несколько вариантов ответа"
+
+msgid "Multiple Choice"
+msgstr "Несколько вариантов ответа"
+
+msgid "Musical Theory"
+msgstr "Теория музыки"
+
+msgid "My Account"
+msgstr "Моя учётная запись"
+
+msgid "My Courses"
+msgstr "Мои курсы"
+
+msgid "My Dashboard"
+msgstr "Моя панель управления"
+
+msgid "My Profile"
+msgstr "Мой профиль"
+
+msgid "My Quiz Attempts"
+msgstr "Мои попытки прохождения теста"
+
+msgid "My favorite compliment is being told that I look like my mom. Seeing myself in her image, like this daughter up top."
+msgstr "Мой любимый комплимент — когда говорят, что я похожа на маму. Я вижу себя в ней, как эта дочь на фотографии выше."
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Name (required)"
+msgstr "Имя (обязательно)"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "New Course"
+msgstr "Новый курс"
+
+msgid "New Password"
+msgstr "Новый пароль"
+
+msgid "News Portal"
+msgstr "Новостной портал"
+
+msgid "Newsletter"
+msgstr "Рассылка"
+
+msgid "Next"
+msgstr "Следующий"
+
+msgid "Nice Course"
+msgstr "Хороший курс"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No File Choosen"
+msgstr "Файл не выбран"
+
+msgid "No Limit"
+msgstr "Без ограничений"
+
+msgid "No archived courses yet."
+msgstr "В архиве пока нет курсов."
+
+msgid "No draft courses yet."
+msgstr "Пока нет черновиков курсов."
+
+msgid "No published courses yet."
+msgstr "Пока нет опубликованных курсов."
+
+msgid "No ads, No trails, No commitments"
+msgstr "Без рекламы, пробных периодов и обязательств"
+
+msgid "No joking - here’s the proof!"
+msgstr "Это не шутка — вот доказательства!"
+
+msgid "No option is necessary for this answer type"
+msgstr "Для этого типа ответа варианты не требуются"
+
+msgid "Note: Contact our support center or let us know if you need the discount code."
+msgstr "Примечание: обратитесь в службу поддержки, если вам нужен код скидки."
+
+msgid "Notify your all students."
+msgstr "Уведомить всех студентов."
+
+msgid "Number of students that can enrol in this course. Set 0 for no limits."
+msgstr "Количество студентов, которые могут записаться на курс. Укажите 0, чтобы снять ограничение."
+
+msgid "Off"
+msgstr "Выкл."
+
+msgid "On Hold"
+msgstr "Приостановлено"
+
+msgid "Online Course"
+msgstr "Онлайн-курс"
+
+msgid "Online School"
+msgstr "Онлайн-школа"
+
+msgid "Only Text"
+msgstr "Только текст"
+
+msgid "Open Ended"
+msgstr "Развёрнутый ответ"
+
+msgid "Open first modal"
+msgstr "Открыть первое модальное окно"
+
+msgid "Open second modal"
+msgstr "Открыть второе модальное окно"
+
+msgid "Open-Ended/Essay questions answer character limit"
+msgstr "Ограничение длины ответа на открытый вопрос или эссе"
+
+msgid "Option Four"
+msgstr "Вариант четыре"
+
+msgid "Option One"
+msgstr "Вариант один"
+
+msgid "Option Three"
+msgstr "Вариант три"
+
+msgid "Option Two"
+msgstr "Вариант два"
+
+msgid "Order History"
+msgstr "История заказов"
+
+msgid "Order ID"
+msgstr "Номер заказа"
+
+msgid "Orders"
+msgstr "Заказы"
+
+msgid "Our Company"
+msgstr "О компании"
+
+msgid "Our Email Address"
+msgstr "Наш адрес электронной почты"
+
+msgid "Our Instructor"
+msgstr "Наш преподаватель"
+
+msgid "Our Location"
+msgstr "Наш адрес"
+
+msgid "Our Newsletter"
+msgstr "Наша рассылка"
+
+msgid "Our Top Course"
+msgstr "Наш лучший курс"
+
+msgid "Overview"
+msgstr "Обзор"
+
+msgid "PHP Beginner + Advanced"
+msgstr "PHP: от начального до продвинутого уровня"
+
+msgid "PHP Beginner Advanced"
+msgstr "PHP: начальный и продвинутый уровни"
+
+msgid "PHP for Beginners"
+msgstr "PHP для начинающих"
+
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+msgid "Pagination Quiz Style"
+msgstr "Стиль пагинации теста"
+
+msgid "Paid"
+msgstr "Платно"
+
+msgid "Pass"
+msgstr "Сдано"
+
+msgid "Pass Percentage"
+msgstr "Процент для сдачи"
+
+msgid "Passing Grade (%)"
+msgstr "Проходной балл (%)"
+
+msgid "Passing Grade:"
+msgstr "Проходной балл:"
+
+msgid "Passport/ ID no (required)"
+msgstr "Номер паспорта или удостоверения личности (обязательно)"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Password change"
+msgstr "Изменение пароля"
+
+msgid "Payment Method"
+msgstr "Способ оплаты"
+
+msgid "Pending"
+msgstr "Ожидает"
+
+msgid "People like histudy education."
+msgstr "Людям нравится образование Histudy."
+
+msgid "Permalink:"
+msgstr "Постоянная ссылка:"
+
+msgid "Phone"
+msgstr "Телефон"
+
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+msgid "Phone:"
+msgstr "Телефон:"
+
+msgid "Photo"
+msgstr "Фото"
+
+msgid "Php Development"
+msgstr "Разработка на PHP"
+
+msgid "Php Learning looking for random paragraphs, you've come to the right place."
+msgstr "Изучаете PHP? Здесь вы найдёте случайные текстовые примеры."
+
+msgid "Planning."
+msgstr "Планирование."
+
+msgid "Plans For This Course"
+msgstr "Тарифные планы курса"
+
+msgid "Point(s) for this answer"
+msgstr "Баллы за этот ответ"
+
+msgid "Popular"
+msgstr "Популярное"
+
+msgid "Popularity"
+msgstr "Популярность"
+
+msgid "Portrait"
+msgstr "Книжная ориентация"
+
+msgid "Post Comment"
+msgstr "Оставить комментарий"
+
+msgid "Postcode / Zip"
+msgstr "Почтовый индекс"
+
+msgid "Premium"
+msgstr "Премиум"
+
+msgid "Prerequisites refers to the fundamental courses to complete before taking this particular course."
+msgstr "Предварительные требования — это базовые курсы, которые нужно пройти перед этим курсом."
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Preview this course"
+msgstr "Предпросмотр курса"
+
+msgid "Previous"
+msgstr "Предыдущий"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Price: high to low"
+msgstr "Цена: по убыванию"
+
+msgid "Price: low to high"
+msgstr "Цена: по возрастанию"
+
+msgid "Pricing"
+msgstr "Цены"
+
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+msgid "Processing"
+msgstr "В обработке"
+
+msgid "Product"
+msgstr "Товар"
+
+msgid "Product Designer"
+msgstr "Дизайнер продукта"
+
+msgid "Product Images"
+msgstr "Изображения товара"
+
+msgid "Products that help beginner designers become true unicorns."
+msgstr "Продукты, которые помогают начинающим дизайнерам стать настоящими профессионалами."
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Progress"
+msgstr "Прогресс"
+
+msgid "Projects You Will Build"
+msgstr "Проекты, которые вы создадите"
+
+msgid "Public Course"
+msgstr "Общедоступный курс"
+
+msgid "Publish"
+msgstr "Опубликовать"
+
+msgid "Purchase Guide"
+msgstr "Руководство по покупке"
+
+msgid "Purchase Histudy"
+msgstr "Купить Histudy"
+
+msgid "Purchase Now"
+msgstr "Купить сейчас"
+
+msgid "Purchases & Refunds"
+msgstr "Покупки и возвраты"
+
+msgid "Q&A"
+msgstr "Вопросы и ответы"
+
+msgid "Quantity"
+msgstr "Количество"
+
+msgid "Question"
+msgstr "Вопрос"
+
+msgid "Question & Answer"
+msgstr "Вопросы и ответы"
+
+msgid "Question Layout"
+msgstr "Расположение вопросов"
+
+msgid "Question No.01"
+msgstr "Вопрос № 01"
+
+msgid "Question No.02"
+msgstr "Вопрос № 02"
+
+msgid "Question No.03"
+msgstr "Вопрос № 03"
+
+msgid "Question Pagination"
+msgstr "Разбиение вопросов на страницы"
+
+msgid "Question below each other"
+msgstr "Вопросы друг под другом"
+
+msgid "Questions Below Each Other"
+msgstr "Вопросы друг под другом"
+
+msgid "Questions No:"
+msgstr "Вопрос №:"
+
+msgid "Questions Order"
+msgstr "Порядок вопросов"
+
+msgid "Questions Types"
+msgstr "Типы вопросов"
+
+msgid "Quiz"
+msgstr "Тест"
+
+msgid "Quiz Attempts"
+msgstr "Попытки прохождения теста"
+
+msgid "Quiz Auto Start"
+msgstr "Автоматический запуск теста"
+
+msgid "Quiz Feedback Mode"
+msgstr "Режим показа ответов"
+
+msgid "Quiz Summary"
+msgstr "Сводка по тесту"
+
+msgid "Quiz Time:"
+msgstr "Время теста:"
+
+msgid "Quiz Title"
+msgstr "Название теста"
+
+msgid "Quiz info"
+msgstr "Информация о тесте"
+
+msgid "Quiz with custom timer"
+msgstr "Тест с настраиваемым таймером"
+
+msgid "Quiz with individual point"
+msgstr "Тест с индивидуальными баллами"
+
+msgid "Quizzes"
+msgstr "Тесты"
+
+msgid "Qus"
+msgstr "Вопросы"
+
+msgid "Random"
+msgstr "Случайный порядок"
+
+msgid "Randomize"
+msgstr "Перемешать"
+
+msgid "Rating"
+msgstr "Рейтинг"
+
+msgid "Re-type New Password"
+msgstr "Повторите новый пароль"
+
+msgid "React"
+msgstr "React"
+
+msgid "React Front To Back"
+msgstr "React: от начала до конца"
+
+msgid "React Js"
+msgstr "React.js"
+
+msgid "Read"
+msgstr "Читать"
+
+msgid "Read About Our"
+msgstr "Узнайте о наших"
+
+msgid "Read Before You Start"
+msgstr "Прочитайте перед началом"
+
+msgid "Ready to start creating a Educational Website?"
+msgstr "Готовы создать образовательный сайт?"
+
+msgid "Reattempt quiz any number of times. Define Attempts Allowed below."
+msgstr "Разрешить проходить тест повторно без ограничений. Ниже укажите допустимое количество попыток."
+
+msgid "Received"
+msgstr "Получено"
+
+msgid "Registration Date"
+msgstr "Дата регистрации"
+
+msgid "Regular Price (₽)"
+msgstr "Обычная цена (₽)"
+
+msgid "Related Book"
+msgstr "Похожие книги"
+
+msgid "Related Courses"
+msgstr "Похожие курсы"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Requirements"
+msgstr "Требования"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "Retry Mode"
+msgstr "Режим повторной попытки"
+
+msgid "Reveal Mode"
+msgstr "Режим показа ответов"
+
+msgid "Review"
+msgstr "Отзыв"
+
+msgid "Reviews"
+msgstr "Отзывы"
+
+msgid "Run their online leaning management system by histudy education template any where and time."
+msgstr "Запустите систему онлайн-обучения на шаблоне Histudy в любом месте и в любое время."
+
+msgid "SKU:"
+msgstr "Артикул:"
+
+msgid "SQL Beginner Advanced"
+msgstr "SQL: начальный и продвинутый уровни"
+
+msgid "Save & Next"
+msgstr "Сохранить и перейти далее"
+
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr "Сохранить моё имя, адрес электронной почты и сайт в этом браузере для следующих комментариев."
+
+msgid "Schedule course contents by date"
+msgstr "Запланировать публикацию материалов курса по датам"
+
+msgid "Scholarship Programs"
+msgstr "Стипендиальные программы"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Search Course"
+msgstr "Поиск курса"
+
+msgid "Search Course Category. ex. Design, Development, Business"
+msgstr "Поиск по категориям курсов, например: дизайн, разработка, бизнес"
+
+msgid "Search Lesson"
+msgstr "Поиск занятия"
+
+msgid "Second."
+msgstr "Секунда."
+
+msgid "Seconds"
+msgstr "Секунды"
+
+msgid "See this our three main plans for our histudy courses. It starts from here! You can teach yourself what you really like."
+msgstr "Ознакомьтесь с тремя основными тарифами курсов Histudy. Здесь начинается ваш путь к знаниям — выбирайте то, что вам действительно интересно."
+
+msgid "Select Video Source"
+msgstr "Выбрать источник видео"
+
+msgid "Select Video Sources"
+msgstr "Выбрать источники видео"
+
+msgid "Select your question type"
+msgstr "Выберите тип вопроса"
+
+msgid "Self Development"
+msgstr "Саморазвитие"
+
+msgid "Seo Friendly"
+msgstr "Оптимизировано для поисковых систем"
+
+msgid "Set question layout view"
+msgstr "Выберите расположение вопросов"
+
+msgid "Set the Course Price option or make it free."
+msgstr "Укажите цену курса или сделайте его бесплатным."
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Shape Images"
+msgstr "Изображение фигуры"
+
+msgid "Shipping Cost"
+msgstr "Стоимость доставки"
+
+msgid "Shopping Cart"
+msgstr "Корзина покупок"
+
+msgid "Short Answer, Matching ,Image Matching, Image Answering, Ordering, Detailed Quiz Report for Student are pro features."
+msgstr "Краткий ответ, сопоставление, сопоставление изображений, ответы по изображениям, сортировка и подробный отчёт по тесту доступны в Pro-версии."
+
+msgid "Short By"
+msgstr "Сортировать по"
+
+msgid "Short By Offer"
+msgstr "Сортировать по предложению"
+
+msgid "Short answer characters limit"
+msgstr "Ограничение длины краткого ответа"
+
+msgid "Show More"
+msgstr "Показать больше"
+
+msgid "Show a second modal and hide this one with the button below."
+msgstr "Нажмите кнопку ниже, чтобы закрыть это окно и открыть второе."
+
+msgid "Show result after the attempt."
+msgstr "Показать результат после попытки."
+
+msgid "Show/hide question number during attempt."
+msgstr "Показывать или скрывать номер вопроса во время прохождения."
+
+msgid "Showing 1-9 of 19 results"
+msgstr "Показаны 1–9 из 19 результатов"
+
+msgid "Similar Books."
+msgstr "Похожие книги."
+
+msgid "Single Chice"
+msgstr "Один вариант ответа"
+
+msgid "Single Choice"
+msgstr "Один вариант ответа"
+
+msgid "Single Product"
+msgstr "Товар"
+
+msgid "Single Question"
+msgstr "Один вопрос"
+
+msgid "Size:"
+msgstr "Размер:"
+
+msgid "Skill Level"
+msgstr "Уровень подготовки"
+
+msgid "Skill Teacher"
+msgstr "Преподаватель практических навыков"
+
+msgid "Skill/Occupation"
+msgstr "Навык/профессия"
+
+msgid "Social Share"
+msgstr "Поделиться"
+
+msgid "Social profiles (required)"
+msgstr "Профили в социальных сетях (обязательно)"
+
+msgid "Song Writing"
+msgstr "Написание песен"
+
+msgid "Song Writing Techniques 101"
+msgstr "101: техники написания песен"
+
+msgid "Sorry, We are down for Maintenance"
+msgstr "Извините, сайт временно недоступен на обслуживании"
+
+msgid "Sort Answer"
+msgstr "Сортировка ответов"
+
+msgid "Sorting"
+msgstr "Сортировка"
+
+msgid "Speaking 101"
+msgstr "Основы разговорной речи"
+
+msgid "Speaking Korean for Beginners"
+msgstr "Корейский язык для начинающих"
+
+msgid "Specify the target audience that will benefit the most from the course."
+msgstr "Укажите целевую аудиторию, которой курс принесёт наибольшую пользу."
+
+msgid "Spoken English"
+msgstr "Разговорный английский"
+
+msgid "Standard size for the course thumbnail is 700x430."
+msgstr "Стандартный размер обложки курса — 700 × 430 пикселей."
+
+msgid "Start Date"
+msgstr "Дата начала"
+
+msgid "Start Learning For Free"
+msgstr "Начните обучение бесплатно"
+
+msgid "Start Quiz"
+msgstr "Начать тест"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Student"
+msgstr "Студент"
+
+msgid "Student will place answer in short answer question type within this characters limit."
+msgstr "Укажите максимальную длину краткого ответа студента."
+
+msgid "Student:"
+msgstr "Студент:"
+
+msgid "Students will place the answer in the Open-Ended/Essay question type within this character limit."
+msgstr "Укажите максимальную длину ответа студента на открытый вопрос или эссе."
+
+msgid "Sub Total"
+msgstr "Промежуточный итог"
+
+msgid "Submit"
+msgstr "Отправить"
+
+msgid "Submit & Next"
+msgstr "Отправить и перейти далее"
+
+msgid "Submit Assignment"
+msgstr "Отправить задание"
+
+msgid "Submit Now"
+msgstr "Отправить"
+
+msgid "Submit Quiz"
+msgstr "Отправить ответы"
+
+msgid "Subscribe"
+msgstr "Подписаться"
+
+msgid "Subtotal:"
+msgstr "Промежуточный итог:"
+
+msgid "Success"
+msgstr "Успешно"
+
+msgid "Successfully Trained"
+msgstr "Успешно прошли обучение"
+
+msgid "Summary"
+msgstr "Сводка"
+
+msgid "Sun images"
+msgstr "Изображения солнца"
+
+msgid "Tag:"
+msgstr "Метка:"
+
+msgid "Take Challenge for Build Your Life."
+msgstr "Примите вызов и постройте свою жизнь."
+
+msgid "Targeted Audience"
+msgstr "Целевая аудитория"
+
+msgid "Ten Factors That Affect Education's Longevity."
+msgstr "Десять факторов, влияющих на долговечность образования."
+
+msgid "Terms & Condition"
+msgstr "Условия использования"
+
+msgid "Terms of service"
+msgstr "Условия использования"
+
+msgid "Testimonial Images"
+msgstr "Изображения отзывов"
+
+msgid "Text & Image both"
+msgstr "Текст и изображение"
+
+msgid "The Best Trasted Client in This Education World"
+msgstr "Самые надёжные клиенты в сфере образования"
+
+msgid "The Complete Histudy 2024: From Zero to Expert!"
+msgstr "Полный курс Histudy 2024: от новичка до эксперта!"
+
+msgid "The Complete JavaScript Course 2024: From Zero to Expert!."
+msgstr "Полный курс JavaScript 2024: от новичка до эксперта!"
+
+msgid "The Course Price Includes Your Author Fee."
+msgstr "В стоимость курса включено вознаграждение автора."
+
+msgid "The Leader in Online Learning"
+msgstr "Лидер онлайн-обучения"
+
+msgid "The Road"
+msgstr "Путь"
+
+msgid "The World Most Lessons for Back to Your Life."
+msgstr "Лучшие уроки мира, которые помогут изменить вашу жизнь."
+
+msgid "The idea of establishing a private university to provide quality education at an affordable cost in Uk London."
+msgstr "Идея создания частного университета в Лондоне, который предоставит качественное образование по доступной цене."
+
+msgid "The page you were looking for could not be found."
+msgstr "Запрашиваемая страница не найдена."
+
+msgid "The type of personal information we collect"
+msgstr "Типы собираемой персональной информации"
+
+msgid "This Course is free for everyone."
+msgstr "Этот курс доступен всем бесплатно."
+
+msgid "Time Limit"
+msgstr "Ограничение по времени"
+
+msgid "Time limit for this quiz. 0 means no time limit."
+msgstr "Ограничение времени для теста. Укажите 0, чтобы снять ограничение."
+
+msgid "Time remaining:"
+msgstr "Осталось времени:"
+
+msgid "Title should be 30 charecter."
+msgstr "Заголовок должен содержать не более 30 символов."
+
+msgid "Toggle Sidebar"
+msgstr "Свернуть или развернуть боковую панель"
+
+msgid "Top Course"
+msgstr "Лучший курс"
+
+msgid "Topic Name"
+msgstr "Название темы"
+
+msgid "Topic Summary"
+msgstr "Краткое описание темы"
+
+msgid "Topic titles are displayed publicly wherever required. Each topic may contain one or more lessons, quiz and assignments."
+msgstr "Названия тем отображаются публично. Каждая тема может включать занятия, тесты и задания."
+
+msgid "Total"
+msgstr "Итого"
+
+msgid "Total Attempted:"
+msgstr "Всего попыток:"
+
+msgid "Total Course Duration"
+msgstr "Общая продолжительность курса"
+
+msgid "Total Courses"
+msgstr "Всего курсов"
+
+msgid "Total Earnings"
+msgstr "Общий доход"
+
+msgid "Total Marks"
+msgstr "Всего баллов"
+
+msgid "Total Points"
+msgstr "Всего баллов"
+
+msgid "Total Students"
+msgstr "Всего студентов"
+
+msgid "Total Submit"
+msgstr "Всего отправлено"
+
+msgid "Travel Agency"
+msgstr "Туристическое агентство"
+
+msgid "Trending"
+msgstr "Популярное"
+
+msgid "True"
+msgstr "Верно"
+
+msgid "True/False"
+msgstr "Верно/неверно"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Type your quiz title here"
+msgstr "Введите название теста"
+
+msgid "University"
+msgstr "Университет"
+
+msgid "Update Answer"
+msgstr "Обновить ответ"
+
+msgid "Update Cart"
+msgstr "Обновить корзину"
+
+msgid "Update Info"
+msgstr "Обновить информацию"
+
+msgid "Update Lesson"
+msgstr "Обновить занятие"
+
+msgid "Update Password"
+msgstr "Обновить пароль"
+
+msgid "Update Profile"
+msgstr "Обновить профиль"
+
+msgid "Update Topic"
+msgstr "Обновить тему"
+
+msgid "Updated content on a regular basis"
+msgstr "Материалы регулярно обновляются"
+
+msgid "Upgrade"
+msgstr "Перейти на расширенный тариф"
+
+msgid "Upload Attachments"
+msgstr "Загрузить вложения"
+
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+msgid "Upload Photo"
+msgstr "Загрузить фото"
+
+msgid "Upload exercise files to the Lesson"
+msgstr "Загрузить файлы задания в занятие"
+
+msgid "Use the Jupyter Notebook Environment. JavaScript developer from scratch."
+msgstr "Используйте среду Jupyter Notebook. Освойте JavaScript с нуля."
+
+msgid "Use the Jupyter Notebook."
+msgstr "Используйте Jupyter Notebook."
+
+msgid "Use the numpy library to create and manipulate arrays."
+msgstr "Используйте библиотеку NumPy для создания массивов и работы с ними."
+
+msgid "Use the numpy library to create."
+msgstr "Используйте библиотеку NumPy для создания."
+
+msgid "Use the pandas module with Python to create and structure data."
+msgstr "Используйте модуль pandas в Python для создания и структурирования данных."
+
+msgid "Use the pandas module with."
+msgstr "Используйте модуль pandas вместе с."
+
+msgid "Useful Links"
+msgstr "Полезные ссылки"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "User Images"
+msgstr "Изображения пользователя"
+
+msgid "User Name"
+msgstr "Имя пользователя"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Values and Variables"
+msgstr "Значения и переменные"
+
+msgid "Vector Images"
+msgstr "Векторные изображения"
+
+msgid "Video Images"
+msgstr "Изображения видео"
+
+msgid "Video Source"
+msgstr "Источник видео"
+
+msgid "Video playback time"
+msgstr "Время воспроизведения видео"
+
+msgid "Video section controls the course overview video."
+msgstr "В разделе видео настраивается обзорный ролик курса."
+
+msgid "View All Course"
+msgstr "Посмотреть все курсы"
+
+msgid "View Cart"
+msgstr "Посмотреть корзину"
+
+msgid "View Details"
+msgstr "Подробнее"
+
+msgid "View Profile"
+msgstr "Посмотреть профиль"
+
+msgid "Vission."
+msgstr "Видение."
+
+msgid "Want to get special offers"
+msgstr "Хотите получать специальные предложения?"
+
+msgid "Watch Before Start"
+msgstr "Посмотрите перед началом"
+
+msgid "We Connect"
+msgstr "Мы объединяем"
+
+msgid "We collect certain personal information about visitors and users of our Sites."
+msgstr "Мы собираем определённую персональную информацию о посетителях и пользователях наших сайтов."
+
+msgid "We're currently under maintenance, if all goas as planned we'll be back in"
+msgstr "Сейчас сайт находится на обслуживании. Если всё пойдёт по плану, мы вернёмся"
+
+msgid "Weaks"
+msgstr "Недели"
+
+msgid "Web Application"
+msgstr "Веб-приложение"
+
+msgid "Web Design"
+msgstr "Веб-дизайн"
+
+msgid "Web Developer"
+msgstr "Веб-разработчик"
+
+msgid "Web Development"
+msgstr "Веб-разработка"
+
+msgid "Web Front To Back"
+msgstr "Веб-разработка от начала до конца"
+
+msgid "Website"
+msgstr "Веб-сайт"
+
+msgid "Welcome Histudy"
+msgstr "Добро пожаловать в Histudy"
+
+msgid "Welcome Lessons"
+msgstr "Добро пожаловать на занятия"
+
+msgid "Welcome to Histudy for your skills with best Online courses."
+msgstr "Добро пожаловать в Histudy — развивайте навыки на лучших онлайн-курсах."
+
+msgid "Welcome to Imroz Privacy Policy"
+msgstr "Добро пожаловать на страницу политики конфиденциальности Imroz"
+
+msgid "Welcome, Jone Due"
+msgstr "Добро пожаловать, Jone Due"
+
+msgid "We’re always in search for talented and motivated people. Don’t be shy introduce yourself!"
+msgstr "Мы всегда ищем талантливых и мотивированных людей. Не стесняйтесь — расскажите о себе!"
+
+msgid "What Our Learners Say"
+msgstr "Отзывы наших учащихся"
+
+msgid "What are the key features of Next.js ?"
+msgstr "Каковы основные возможности Next.js?"
+
+msgid "What are you looking for?"
+msgstr "Что вы ищете?"
+
+msgid "What is Histudy ? How does it work?"
+msgstr "Что такое Histudy и как он работает?"
+
+msgid "What is the capital of France?"
+msgstr "Какова столица Франции?"
+
+msgid "What you'll learn"
+msgstr "Чему вы научитесь"
+
+msgid "Whats Material Includes?"
+msgstr "Что входит в материалы?"
+
+msgid "Whose Inspirations You Love"
+msgstr "Кем вы вдохновляетесь"
+
+msgid "Why You Should Not Go To Education."
+msgstr "Почему не стоит отказываться от образования."
+
+msgid "Why learn with our courses?"
+msgstr "Почему стоит учиться на наших курсах?"
+
+msgid "Why to Buy our Histudy Course?"
+msgstr "Почему стоит купить наш курс Histudy?"
+
+msgid "WordPress for Beginners"
+msgstr "WordPress для начинающих"
+
+msgid "Write Answer"
+msgstr "Введите ответ"
+
+msgid "Write a short essay on yourself using the 5"
+msgstr "Напишите краткое эссе о себе, используя пять"
+
+msgid "Write your question here"
+msgstr "Введите свой вопрос"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "You Can't Saved Your Payment Method yet."
+msgstr "Вы ещё не сохранили способ оплаты."
+
+msgid "You Get Ready"
+msgstr "Приготовьтесь"
+
+msgid "You can develop skill and setup"
+msgstr "Вы сможете развить навыки и настроить"
+
+msgid "You can schedule your course content using the above content drip options."
+msgstr "С помощью настроек выше можно запланировать постепенное открытие материалов курса."
+
+msgid "Your Apply"
+msgstr "Ваша заявка"
+
+msgid "Your Assignment"
+msgstr "Ваше задание"
+
+msgid "Your Email"
+msgstr "Ваш адрес электронной почты"
+
+msgid "Your Name"
+msgstr "Ваше имя"
+
+msgid "Your Rating"
+msgstr "Ваша оценка"
+
+msgid "Your Subject"
+msgstr "Тема сообщения"
+
+msgid "Your Website"
+msgstr "Ваш сайт"
+
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr "Ваш адрес электронной почты не будет опубликован. Обязательные поля отмечены *"
+
+msgid "Your shopping cart"
+msgstr "Ваша корзина покупок"
+
+msgid "Zero to career"
+msgstr "От новичка до карьеры"
+
+msgid "and Course updates?"
+msgstr "и обновления курса?"
+
+msgid "applications with features such as"
+msgstr "приложения с такими возможностями, как"
+
+msgid "beginners to getting hired."
+msgstr "от начального уровня до трудоустройства."
+
+msgid "built on top of"
+msgstr "построенный на основе"
+
+msgid "can join with us."
+msgstr "можете присоединиться к нам."
+
+msgid "country"
+msgstr "Страна"
+
+msgid "file image"
+msgstr "Изображение файла"
+
+msgid "framework"
+msgstr "фреймворк"
+
+msgid "from absolute"
+msgstr "от абсолютных значений"
+
+msgid "icons Images"
+msgstr "Изображения значков"
+
+msgid "instructor"
+msgstr "преподаватель"
+
+msgid "kindergarten"
+msgstr "Детский сад"
+
+msgid "rated 4.5/5 Stars in 1000+ reviews."
+msgstr "Оценка 4,5 из 5 по итогам более 1000 отзывов."
+
+msgid "set the mark ex. 10"
+msgstr "Укажите оценку, например: 10"
+
+msgid "title"
+msgstr "Заголовок"
+
+msgid "Add a summary of short text to prepare students for the activities for the topic. The text is shown on the course page beside the tooltip beside the topic name."
+msgstr "Добавьте краткое описание, чтобы подготовить студентов к изучению темы. Текст отображается на странице курса рядом с подсказкой у названия темы."
+
+msgid "Add a summary of short text to prepare students for the activities for the Quiz. The text is shown on the course page beside the tooltip beside the Quiz name."
+msgstr "Добавьте краткое описание, чтобы подготовить студентов к прохождению теста. Текст отображается на странице курса рядом с подсказкой у названия теста."
+
+msgid "These landing pages expose people’s struggles, show how your product helps, and acts as a 24/7 sales team that creates new business opportunities for you."
+msgstr "Эти целевые страницы показывают проблемы аудитории, объясняют, как помогает ваш продукт, и работают как круглосуточная команда продаж, открывая новые возможности для бизнеса."
+
+msgid "I'm the Front-End Developer for #Pixcels IT in India, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences."
+msgstr "Я фронтенд-разработчик в #Pixcels IT в Индии. Увлекаюсь визуальными эффектами интерфейса, анимацией и созданием интуитивно понятного, динамичного пользовательского опыта."
+
+msgid "Web Js long fact that a reader will be distracted by the readable."
+msgstr "Веб-разработка на JavaScript — это текст-заполнитель, призванный отвлечь читателя."
+
+msgid "Welcome to our online course for beginners JavaScript! This course is designed to give you a solid foundation in the basics of JavaScript programming. Whether you're looking to pursue a career in web development, or just interested in learning a valuable new skill, this course is the perfect place to start."
+msgstr "Добро пожаловать на наш онлайн-курс JavaScript для начинающих! Он даст вам прочную основу программирования на JavaScript. Хотите ли вы связать карьеру с веб-разработкой или просто освоить полезный навык — этот курс станет отличным началом."
+
+msgid "Throughout this course, you'll learn the fundamental concepts of programming such as variables, data types, functions, and control structures. You'll also learn how to use these concepts to create simple programs and web applications."
+msgstr "На этом курсе вы изучите основы программирования: переменные, типы данных, функции и управляющие конструкции. Вы также научитесь применять эти знания для создания простых программ и веб-приложений."
+
+msgid "Our course is structured in a way that makes learning easy and fun. We use a combination of video lectures, hands-on exercises, and quizzes to help you reinforce your understanding of the material. Additionally, we provide detailed explanations and examples to help you overcome any challenges you may encounter along the way."
+msgstr "Курс построен так, чтобы обучение было простым и увлекательным. Видеолекции, практические задания и тесты помогут закрепить материал. Подробные объяснения и примеры помогут преодолеть любые трудности."
+
+msgid "By the end of this course, you'll be able to write basic JavaScript code, understand the fundamental concepts of programming, and be able to build simple web applications. So let's get started and begin your journey to becoming a proficient JavaScript programmer!"
+msgstr "К концу курса вы сможете писать простой код на JavaScript, разберётесь в основах программирования и научитесь создавать веб-приложения. Начнём ваш путь к уверенному владению JavaScript!"
+
+msgid "designed to enhance the learning experience. Our quizzes are an excellent tool for assessing students' knowledge, making education both engaging and effective. With Histudy, learning is not just informative but also enjoyable."
+msgstr "Они помогают сделать обучение эффективнее и интереснее. Тесты Histudy отлично подходят для проверки знаний, превращая обучение не только в полезный, но и увлекательный процесс."
+
+msgid "A buyer’s guide is an online article that helps customers make a purchasing decision. It provides considerations for a specific product, including functionality, size, maintenance, price, and different features betweens models or brands. Buyer’s guides are helpful for selling high-ticket items such as outdoor gear, furniture, or appliances."
+msgstr "Руководство покупателя — это статья, которая помогает принять решение о покупке. В ней рассматриваются характеристики товара: функциональность, размер, обслуживание, цена и различия между моделями или брендами. Такие руководства полезны при продаже дорогих товаров, например туристического снаряжения, мебели или бытовой техники."
+
+msgid "Buyer’s guides convey general recommendations and tips outside the standard product description. This helps coach buyers through the decision-making process so they can determine the best setup for themselves."
+msgstr "В руководствах покупателя собраны общие рекомендации и советы, дополняющие описание товара. Они помогают принять решение и выбрать наиболее подходящий вариант."
+
+msgid "Are you new to PHP or need a refresher? Then this course will help you get all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and ending the course by building a CMS system similar to WordPress, Joomla or Drupal. Knowing PHP has allowed me to make enough money to stay home and make courses like this one for students all over the world."
+msgstr "Впервые изучаете PHP или хотите освежить знания? На этом курсе вы освоите процедурный и объектно-ориентированный PHP, MYSQLi, а в конце создадите CMS, похожую на WordPress, Joomla или Drupal. Знание PHP позволило мне зарабатывать, не выходя из дома, и создавать такие курсы для студентов со всего мира."
+
+msgid "Maximum of 15 keywords covering features, usage, and styling. Keywords should all be in lowercase and separated by commas. e.g. photography, gallery, modern, jquery, wordpress theme."
+msgstr "Укажите не более 15 ключевых слов об особенностях, назначении и оформлении. Используйте строчные буквы и разделяйте слова запятыми, например: фотография, галерея, современный дизайн, jQuery, тема WordPress."
+
+msgid "Add a summary of short text to prepare students for the activities for the Lesson. The text is shown on the course page beside the tooltip beside the Lesson name."
+msgstr "Добавьте краткое описание занятия, чтобы подготовить студентов к заданиям. Текст будет отображаться на странице курса рядом с подсказкой у названия занятия."
+
+msgid "This amount of question will be available for students to answer, and question will comes randomly from all available questions belongs with a quiz, if this amount is greater than available question, then all questions will be available for a student to answer."
+msgstr "Укажите количество вопросов, на которые смогут ответить студенты. Вопросы будут случайным образом выбраны из всех вопросов теста. Если указанное число превышает количество доступных вопросов, студентам будут показаны все вопросы."
+
+msgid "John is a brilliant educator, whose life was spent for computer science and love of nature. Being a female, she encountered a lot of obstacles and was forbidden to work in this field by her family. With a true spirit and talented gift, she was able to succeed and set an example for others."
+msgstr "Джон — выдающийся преподаватель, посвятившая жизнь информатике и любви к природе. Ей пришлось преодолеть множество препятствий и запрет со стороны семьи на работу в этой области. Благодаря силе духа и таланту она добилась успеха и стала примером для других."
+
+msgid "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be run their online leaning management system by histudy education template."
+msgstr "С Histudy любая школа, университет или колледж сможет легко запустить образовательный сайт. Университет также может использовать этот шаблон для системы онлайн-обучения."
+
+msgid "Yes, We will get update the Histudy. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+msgstr "Да, Histudy будет регулярно обновляться. Вы сможете получать обновления в любое время и без ограничений. Наша команда продолжит добавлять новые функции."
+
+msgid "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph."
+msgstr "Если вам нужны случайные абзацы, вы попали по адресу. Когда одного случайного слова или предложения недостаточно, можно выбрать целый случайный абзац."
+
+msgid "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+msgstr "Далеко-далеко, за словесными горами, в стране Вокалия и Консонантия живут тексты-невидимки. Они обитают в Букмарксгроув, на берегу океана Семантики."
+
+msgid "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September 2024 · Undergraduate & Graduate Admission: Fall 2024 Semester · 20% Waiver on ..."
+msgstr "Подайте заявку на программу последипломного образования до 26 сентября 2024 года. Приём на программы бакалавриата и магистратуры — осенний семестр 2024 года. Скидка 20% на ..."
+
+msgid "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you."
+msgstr "С Histudy любая школа, университет или колледж сможет легко создать образовательный сайт и успешно организовать онлайн-обучение."

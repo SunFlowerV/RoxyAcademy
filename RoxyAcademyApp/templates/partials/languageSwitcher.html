@@ -1,0 +1,25 @@
+{% load i18n %}
+<div class="d-flex align-items-center gap-1" aria-label="{% translate 'Choose language' %}">
+    <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+        {% if request.path|slice:":4" == "/en/" %}
+        <input type="hidden" name="next" value="{{ request.get_full_path|slice:'3:' }}">
+        {% else %}
+        <input type="hidden" name="next" value="{{ request.get_full_path }}">
+        {% endif %}
+        <button type="submit" name="language" value="ru"
+            class="rbt-btn btn-border-gradient radius-round btn-sm{% if LANGUAGE_CODE == 'ru' %} active{% endif %}"
+            lang="ru" aria-pressed="{% if LANGUAGE_CODE == 'ru' %}true{% else %}false{% endif %}">РУС</button>
+    </form>
+    <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+        {% if request.path|slice:":4" == "/en/" %}
+        <input type="hidden" name="next" value="{{ request.get_full_path }}">
+        {% else %}
+        <input type="hidden" name="next" value="/en{{ request.get_full_path }}">
+        {% endif %}
+        <button type="submit" name="language" value="en"
+            class="rbt-btn btn-border-gradient radius-round btn-sm{% if LANGUAGE_CODE == 'en' %} active{% endif %}"
+            lang="en" aria-pressed="{% if LANGUAGE_CODE == 'en' %}true{% else %}false{% endif %}">EN</button>
+    </form>
+</div>

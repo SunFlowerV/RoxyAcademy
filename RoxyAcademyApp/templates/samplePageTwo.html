@@ -1,0 +1,156 @@
+{% extends 'layout/layout.html' %}
+{% load i18n %}
+
+{% block content %}
+
+    <!-- Mobile Menu Section -->
+    <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/logo/roxy-academy.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+
+                        <div class="logo d-none logo-light">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/dark/logo/roxy-academy-light.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description">{% translate 'Histudy is a education website template. You can customize all.' %}</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li>
+                        <a href="mailto:hello@example.com"><i class="feather-mail"></i>example@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="feather-phone"></i>(302) 555-0107</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu">
+                    
+
+                    
+
+                    
+
+                    
+
+
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="#">
+                        <span>{% translate 'Enroll Now' %}</span>
+                    </a>
+                </div>
+
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">{% translate 'Find With Us' %}</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/">
+                                <i class="feather-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.twitter.com">
+                                <i class="feather-twitter"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/">
+                                <i class="feather-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkdin.com/">
+                                <i class="feather-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Start Side Vav -->
+    {% include "partials/sideVav.html" %}
+    <!-- End Side Vav -->
+
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+
+    <!-- Start breadcrumb Area -->
+    <div class="rbt-breadcrumb-default ptb--100 ptb_md--50 ptb_sm--30 bg-gradient-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-inner text-center">
+                        <h2 class="title">{% translate 'Pricing' %}</h2>
+                        <ul class="page-list">
+                            <li class="rbt-breadcrumb-item"><a href="#">{% translate 'Home' %}</a></li>
+                            <li>
+                                <div class="icon-right"><i class="feather-chevron-right"></i></div>
+                            </li>
+                            <li class="rbt-breadcrumb-item active">{% translate 'Pricing' %}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb Area -->
+
+    <div class="rbt-putchase-guide-area rbt-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="post-thumbnail mb--30 position-relative wp-block-image alignwide">
+                        <img class="w-100 radius" src="/static/images/blog/blog-bl-02.jpg" alt="{% translate 'Blog Images' %}">
+                    </div>
+                    <div class="content">
+                        <h4>{% translate 'Histudy Currency' %}</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nam id necessitatibus dolorem odit possimus perferendis non ipsa amet eveniet blanditiis esse omnis dignissimos exercitationem nobis ex earum quae deleniti.</p>
+                        <h4>{% translate 'Account Registering' %}</h4>
+                        <p>{% translate 'These landing pages expose people’s struggles, show how your product helps, and acts as a 24/7 sales team that creates new business opportunities for you.' %}</p>
+                        <ul>
+                            <li>{% translate 'Name (required)' %}</li>
+                            <li>{% translate 'Age (required)' %}</li>
+                            <li>{% translate 'Date of birth (required)' %}</li>
+                            <li>{% translate 'Passport/ ID no (required)' %}</li>
+                            <li>{% translate 'Current career (required)' %}</li>
+                            <li>{% translate 'Mobile phone numbers (required)' %}</li>
+                            <li>{% translate 'Email address (required)' %}</li>
+                            <li>{% translate 'Hobbies & interests (required)' %}</li>
+                            <li>{% translate 'Social profiles (required)' %}</li>
+                        </ul>
+
+                        <h4>{% translate 'Membership Policy' %}</h4>
+                        <p>{% translate 'A buyer’s guide is an online article that helps customers make a purchasing decision. It provides considerations for a specific product, including functionality, size, maintenance, price, and different features betweens models or brands. Buyer’s guides are helpful for selling high-ticket items such as outdoor gear, furniture, or appliances.' %}</p>
+
+                        <h4>{% translate 'How to Purchase a Course?' %}</h4>
+                        <p>{% translate 'Buyer’s guides convey general recommendations and tips outside the standard product description. This helps coach buyers through the decision-making process so they can determine the best setup for themselves.' %}</p>
+
+                        <h4>{% translate 'Why to Buy our Histudy Course?' %}</h4>
+
+                        <ul>
+                            <li>{% translate 'Updated content on a regular basis' %}</li>
+                            <li>{% translate '1-click checkout' %}</li>
+                            <li>{% translate 'Easy access & smart user dashboard' %}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

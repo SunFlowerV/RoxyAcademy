@@ -1,0 +1,445 @@
+{% extends '../layout/layout.html' %}
+{% load i18n %}
+
+{% block content %}
+
+    <!-- Mobile Menu Section -->
+    <div class="popup-mobile-menu">
+        <div class="inner-wrapper">
+            <div class="inner-top">
+                <div class="content">
+                    <div class="logo">
+                        <div class="logo logo-dark">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/logo/roxy-academy.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+
+                        <div class="logo d-none logo-light">
+                            <a href="{% url 'home' %}">
+                                <img src="/static/images/dark/logo/roxy-academy-light.svg" alt="Roxy Academy">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rbt-btn-close">
+                        <button class="close-button rbt-round-btn"><i class="feather-x"></i></button>
+                    </div>
+                </div>
+                <p class="description">{% translate 'Histudy is a education website template. You can customize all.' %}</p>
+                <ul class="navbar-top-left rbt-information-list justify-content-start">
+                    <li>
+                        <a href="mailto:hello@example.com"><i class="feather-mail"></i>example@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="feather-phone"></i>(302) 555-0107</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="mainmenu-nav">
+                <ul class="mainmenu">
+                    
+
+                    
+
+                    
+
+                    
+
+
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-bottom">
+                <div class="rbt-btn-wrapper mb--20">
+                    <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center" href="#">
+                        <span>{% translate 'Enroll Now' %}</span>
+                    </a>
+                </div>
+
+                <div class="social-share-wrapper">
+                    <span class="rbt-short-title d-block">{% translate 'Find With Us' %}</span>
+                    <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+                        <li><a href="https://www.facebook.com/">
+                                <i class="feather-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.twitter.com">
+                                <i class="feather-twitter"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/">
+                                <i class="feather-instagram"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkdin.com/">
+                                <i class="feather-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Start Side Vav -->
+
+    {% include "partials/sideVav.html" %}
+
+    <!-- End Side Vav -->
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+
+    <div class="rbt-page-banner-wrapper">
+        <!-- Start Banner BG Image  -->
+        <div class="rbt-banner-image"></div>
+        <!-- End Banner BG Image  -->
+        <div class="rbt-banner-content">
+
+            <!-- Start Banner Content Top  -->
+            <div class="rbt-banner-content-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- Start Breadcrumb Area  -->
+                            <ul class="page-list">
+                                <li class="rbt-breadcrumb-item"><a href="#">{% translate 'Home' %}</a></li>
+                                <li>
+                                    <div class="icon-right"><i class="feather-chevron-right"></i></div>
+                                </li>
+                                <li class="rbt-breadcrumb-item active">{% translate 'All Products' %}</li>
+                            </ul>
+                            <!-- End Breadcrumb Area  -->
+
+                            <div class=" title-wrapper">
+                                <h1 class="title mb--0">{% translate 'All Products' %}</h1>
+                                <a href="#" class="rbt-badge-2">
+                                    <div class="image">🎉</div> {% translate '50 Products' %}
+                                </a>
+                            </div>
+
+                            <p class="description">{% translate 'Products that help beginner designers become true unicorns.' %} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Banner Content Top  -->
+
+            <!-- Start Course Top  -->
+            <div class="rbt-course-top-wrapper mt--40">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-5 col-md-12">
+                            <div class="rbt-sorting-list d-flex flex-wrap align-items-center">
+                                <div class="rbt-short-item">
+                                    <span class="course-index">{% translate 'Showing 1-9 of 19 results' %}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 col-md-12">
+                            <div class="rbt-sorting-list d-flex flex-wrap align-items-center justify-content-start justify-content-lg-end">
+                                <div class="rbt-short-item">
+                                    <div class="filter-select">
+                                        <span class="select-label d-block">{% translate 'Short By' %}</span>
+                                        <div class="filter-select rbt-modern-select search-by-category">
+                                            <select>
+                                                <option>{% translate 'Default' %}</option>
+                                                <option>{% translate 'Latest' %}</option>
+                                                <option>{% translate 'Popularity' %}</option>
+                                                <option>{% translate 'Trending' %}</option>
+                                                <option>{% translate 'Price: low to high' %}</option>
+                                                <option>{% translate 'Price: high to low' %}</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Course Top  -->
+        </div>
+    </div>
+
+    <div class="rbt-shop-area rbt-section-overlayping-top rbt-section-gapBottom">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Start Single Product  -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="rbt-default-card style-three rbt-hover">
+                        <div class="inner">
+                            <div class="content pt--0 pb--10">
+                                <h2 class="title"><a href="{% url 'singleProduct' %}">{% translate 'Miracle Morning' %}</a></h2>
+
+                                <span class="team-form">
+                                    <span class="location">{% translate 'By John Due' %}</span>
+                                </span>
+                            </div>
+                            <div class="thumbnail"><a href="{% url 'singleProduct' %}"><img src="/static/images/product/1.jpg" alt="{% translate 'Histudy Book Image' %}"></a></div>
+                            <div class="content">
+
+                                <div class="rbt-review justify-content-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">{% translate '(15) - 100% Positive Reviews' %}</span>
+                                </div>
+                                <div class="rbt-price justify-content-center mt--10">
+                                    <span class="current-price theme-gradient">$60.50</span>
+                                    <span class="off-price">$110.50</span>
+                                </div>
+                                <div class="addto-cart-btn mt--20">
+                                    <a class="rbt-btn btn-gradient hover-icon-reverse" href="{% url 'cart' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Add To Cart' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product  -->
+
+                <!-- Start Single Product  -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="rbt-default-card style-three rbt-hover">
+                        <div class="inner">
+                            <div class="content pt--0 pb--10">
+                                <h2 class="title"><a href="{% url 'singleProduct' %}">{% translate 'Happy Strong' %}</a></h2>
+
+                                <span class="team-form">
+                                    <span class="location">{% translate 'By John Due' %}</span>
+                                </span>
+                            </div>
+                            <div class="thumbnail"><a href="{% url 'singleProduct' %}"><img src="/static/images/product/7.jpg" alt="{% translate 'Histudy Book Image' %}"></a></div>
+                            <div class="content">
+
+                                <div class="rbt-review justify-content-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">{% translate '(75) - 100% Positive Reviews' %}</span>
+                                </div>
+                                <div class="rbt-price justify-content-center mt--10">
+                                    <span class="current-price theme-gradient">$95.00</span>
+                                    <span class="off-price">$150.00</span>
+                                </div>
+                                <div class="addto-cart-btn mt--20">
+                                    <a class="rbt-btn btn-gradient hover-icon-reverse" href="{% url 'cart' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Add To Cart' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product  -->
+
+                <!-- Start Single Product  -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="rbt-default-card style-three rbt-hover">
+                        <div class="inner">
+                            <div class="content pt--0 pb--10">
+                                <h2 class="title"><a href="{% url 'singleProduct' %}">Rich Dad Poor Dad</a></h2>
+
+                                <span class="team-form">
+                                    <span class="location">{% translate 'By John Due' %}</span>
+                                </span>
+                            </div>
+                            <div class="thumbnail"><a href="{% url 'singleProduct' %}"><img src="/static/images/product/3.jpg" alt="{% translate 'Histudy Book Image' %}"></a></div>
+                            <div class="content">
+
+                                <div class="rbt-review justify-content-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">{% translate '(84) - 100% Positive Reviews' %}</span>
+                                </div>
+                                <div class="rbt-price justify-content-center mt--10">
+                                    <span class="current-price theme-gradient">$12.50</span>
+                                    <span class="off-price">$20.00</span>
+                                </div>
+                                <div class="addto-cart-btn mt--20">
+                                    <a class="rbt-btn btn-gradient hover-icon-reverse" href="{% url 'cart' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Add To Cart' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product  -->
+
+                <!-- Start Single Product  -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="rbt-default-card style-three rbt-hover">
+                        <div class="inner">
+                            <div class="content pt--0 pb--10">
+                                <h2 class="title"><a href="{% url 'singleProduct' %}">{% translate 'Momentum Theorem' %}</a></h2>
+
+                                <span class="team-form">
+                                    <span class="location">{% translate 'By John Due' %}</span>
+                                </span>
+                            </div>
+                            <div class="thumbnail"><a href="{% url 'singleProduct' %}"><img src="/static/images/product/4.jpg" alt="{% translate 'Histudy Book Image' %}"></a></div>
+                            <div class="content">
+
+                                <div class="rbt-review justify-content-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">{% translate '(95) - 100% Positive Reviews' %}</span>
+                                </div>
+                                <div class="rbt-price justify-content-center mt--10">
+                                    <span class="current-price theme-gradient">$75.00</span>
+                                    <span class="off-price">$150.50</span>
+                                </div>
+                                <div class="addto-cart-btn mt--20">
+                                    <a class="rbt-btn btn-gradient hover-icon-reverse" href="{% url 'cart' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Add To Cart' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product  -->
+
+                <!-- Start Single Product  -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="rbt-default-card style-three rbt-hover">
+                        <div class="inner">
+                            <div class="content pt--0 pb--10">
+                                <h2 class="title"><a href="{% url 'singleProduct' %}">{% translate 'Happy Days' %}</a></h2>
+
+                                <span class="team-form">
+                                    <span class="location">{% translate 'By John Due' %}</span>
+                                </span>
+                            </div>
+                            <div class="thumbnail"><a href="{% url 'singleProduct' %}"><img src="/static/images/product/8.jpg" alt="{% translate 'Histudy Book Image' %}"></a></div>
+                            <div class="content">
+
+                                <div class="rbt-review justify-content-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">{% translate '(120) - 100% Positive Reviews' %}</span>
+                                </div>
+                                <div class="rbt-price justify-content-center mt--10">
+                                    <span class="current-price theme-gradient">$45.00</span>
+                                    <span class="off-price">$90.00</span>
+                                </div>
+                                <div class="addto-cart-btn mt--20">
+                                    <a class="rbt-btn btn-gradient hover-icon-reverse" href="{% url 'cart' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Add To Cart' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product  -->
+
+                <!-- Start Single Product  -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="rbt-default-card style-three rbt-hover">
+                        <div class="inner">
+                            <div class="content pt--0 pb--10">
+                                <h2 class="title"><a href="{% url 'singleProduct' %}">{% translate 'The Road' %}</a></h2>
+
+                                <span class="team-form">
+                                    <span class="location">{% translate 'By John Due' %}</span>
+                                </span>
+                            </div>
+                            <div class="thumbnail"><a href="{% url 'singleProduct' %}"><img src="/static/images/product/6.jpg" alt="{% translate 'Histudy Book Image' %}"></a></div>
+                            <div class="content">
+
+                                <div class="rbt-review justify-content-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">{% translate '(350) - 100% Positive Reviews' %}</span>
+                                </div>
+                                <div class="rbt-price justify-content-center mt--10">
+                                    <span class="current-price theme-gradient">$11.50</span>
+                                    <span class="off-price">$45.00</span>
+                                </div>
+                                <div class="addto-cart-btn mt--20">
+                                    <a class="rbt-btn btn-gradient hover-icon-reverse" href="{% url 'cart' %}">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">{% translate 'Add To Cart' %}</span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Product  -->
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mt--60">
+                    <nav>
+                        <ul class="rbt-pagination">
+                            <li><a href="#" aria-label="{% translate 'Previous' %}"><i class="feather-chevron-left"></i></a></li>
+                            <li><a href="#">1</a></li>
+                            <li class="active"><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#" aria-label="{% translate 'Next' %}"><i class="feather-chevron-right"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include "partials/separator.html" %}
+    
+{% endblock content %}
